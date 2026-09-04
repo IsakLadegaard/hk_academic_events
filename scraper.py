@@ -10,12 +10,15 @@ venue/speaker fields out of its (site-specific) HTML structure.
 import html
 import json
 import re
+import ssl
 import time
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
+from requests.adapters import HTTPAdapter
 
 USER_AGENT = "Mozilla/5.0 (compatible; hk-academic-events-bot/1.0)"
 REQUEST_TIMEOUT = 20
@@ -220,6 +223,44 @@ def cutoff_datetime():
     return (now_hk - timedelta(days=MAX_PAST_DAYS)).replace(hour=0, minute=0, second=0, microsecond=0)
 
 
+class LegacySSLAdapter(HTTPAdapter):
+    """EdUHK's server requires legacy TLS renegotiation, which OpenSSL 3 blocks by default."""
+
+    def init_poolmanager(self, *args, **kwargs):
+        ctx = ssl.create_default_context()
+        ctx.options |= 0x4  # SSL_OP_LEGACY_SERVER_CONNECT
+        ctx.set_ciphers("DEFAULT@SECLEVEL=1")
+        kwargs["ssl_context"] = ctx
+        return super().init_poolmanager(*args, **kwargs)
+
+
+def make_talk(*, title, institution, department, date_text, speaker, description, link, cutoff, display_date=None):
+    """Builds a talk dict, or returns None if the date is missing/unparseable/too old.
+
+    date_text is used for cutoff parsing and must be the *date only* (no time
+    range) - a trailing "3:30 - 5:00 pm" would otherwise be misread as a date
+    range by parse_event_date's range-splitting. Pass display_date separately
+    (e.g. "23 September 2026, 3:30 - 5:00 pm") when it should differ from
+    date_text; it defaults to parse_event_date's cleaned version of date_text.
+    """
+    start_date, end_date, cleaned_date_text = parse_event_date(date_text)
+    if start_date is None:
+        return None
+    if end_date.replace(tzinfo=HK_TZ) < cutoff:
+        return None
+    clean_title = strip_title_date_prefix(title)
+    return {
+        "title": clean_title,
+        "institution": institution,
+        "department": department,
+        "date": display_date if display_date is not None else cleaned_date_text,
+        "speaker": speaker,
+        "description": description,
+        "disciplines": classify_disciplines(f"{clean_title} {description}"),
+        "link": link,
+    }
+
+
 def scrape_site(api_base, institution, department, extractor):
     talks = []
     cutoff = cutoff_datetime()
@@ -239,23 +280,19 @@ def scrape_site(api_base, institution, department, extractor):
             finally:
                 time.sleep(REQUEST_DELAY_SECONDS)
 
-            start_date, end_date, _ = parse_event_date(date_text)
-            if start_date is None:
-                continue
-            if end_date.replace(tzinfo=HK_TZ) < cutoff:
-                continue
-
-            title = strip_title_date_prefix(raw_title)
-            talks.append({
-                "title": title,
-                "institution": institution,
-                "department": department,
-                "date": full_date_text,
-                "speaker": speaker,
-                "description": description,
-                "disciplines": classify_disciplines(f"{title} {description}"),
-                "link": link,
-            })
+            talk = make_talk(
+                title=raw_title,
+                institution=institution,
+                department=department,
+                date_text=date_text,
+                display_date=full_date_text,
+                speaker=speaker,
+                description=description,
+                link=link,
+                cutoff=cutoff,
+            )
+            if talk:
+                talks.append(talk)
     except Exception as exc:
         print(f"{institution} scrape failed: {exc}")
     return talks
@@ -279,8 +316,213 @@ def scrape_cuhk():
     )
 
 
+def scrape_hkust():
+    """Listing page has full date/venue per row (Drupal views), no per-event fetch needed."""
+    base = "https://sosc.hkust.edu.hk"
+    talks = []
+    cutoff = cutoff_datetime()
+    try:
+        r = requests.get(f"{base}/event", headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        for row in soup.select(".views-row"):
+            link_tag = row.select_one(".detail h2 a") or row.select_one("h2 a")
+            if not link_tag:
+                continue
+            title = clean_text(link_tag.get_text())
+            link = urljoin(base, link_tag.get("href", ""))
+            time_tag = row.select_one(".date time")
+            date_text = re.sub(r"\s+", " ", time_tag.get_text(strip=True)) if time_tag else ""
+            venue = clean_text(row.select_one(".venue").get_text()) if row.select_one(".venue") else ""
+            talk = make_talk(
+                title=title,
+                institution="HKUST",
+                department="Division of Social Science",
+                date_text=date_text,
+                speaker="",
+                description=f"Venue: {venue}" if venue else "",
+                link=link,
+                cutoff=cutoff,
+            )
+            if talk:
+                talks.append(talk)
+    except Exception as exc:
+        print(f"HKUST scrape failed: {exc}")
+    return talks
+
+
+def scrape_cityu():
+    """Listing cards have title + date; no per-event fetch needed."""
+    base = "https://ssweb.cityu.edu.hk"
+    talks = []
+    cutoff = cutoff_datetime()
+    try:
+        r = requests.get(f"{base}/en/news-events/upcoming-events", headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        for card in soup.select("article.card"):
+            title_tag = card.select_one(".card__title")
+            date_tag = card.select_one(".card__date")
+            if not title_tag or not date_tag:
+                continue
+            title = clean_text(title_tag.get_text())
+            link = urljoin(base, title_tag.get("href", ""))
+            date_text = clean_text(date_tag.get_text())
+            talk = make_talk(
+                title=title,
+                institution="CityU",
+                department="Department of Social and Behavioural Sciences",
+                date_text=date_text,
+                speaker="",
+                description="",
+                link=link,
+                cutoff=cutoff,
+            )
+            if talk:
+                talks.append(talk)
+    except Exception as exc:
+        print(f"CityU scrape failed: {exc}")
+    return talks
+
+
+HKBU_FIELD_RE = re.compile(
+    r"Speaker:\s*(?P<speaker>.*?)\s*Date:\s*(?P<date>.*?)\s*Time:\s*(?P<time>.*?)\s*"
+    r"Location:\s*(?P<location>.*?)\s*(?:Registration link:|Learn More|$)"
+)
+
+
+def scrape_hkbu():
+    """Listing page has full speaker/date/time/location per seminar text block."""
+    base = "https://socweb.hkbu.edu.hk"
+    url = f"{base}/research/seminars.html"
+    talks = []
+    cutoff = cutoff_datetime()
+    try:
+        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        for block in soup.select(".c-text"):
+            text = block.get_text(" ", strip=True)
+            if "Speaker:" not in text or "Date:" not in text:
+                continue
+            title = clean_text(text.split("Speaker:")[0])
+            match = HKBU_FIELD_RE.search(text)
+            if not match:
+                continue
+            speaker = match.group("speaker").strip()
+            date_text = match.group("date").strip()
+            time_text = match.group("time").strip()
+            location = match.group("location").strip()
+            full_date_text = f"{date_text}, {time_text}" if date_text and time_text else date_text
+            learn_more = block.find("a", string=lambda s: s and "Learn More" in s)
+            link = urljoin(base, learn_more["href"]) if learn_more and learn_more.get("href") else url
+            talk = make_talk(
+                title=title,
+                institution="HKBU",
+                department="Department of Sociology",
+                date_text=date_text,
+                display_date=full_date_text,
+                speaker=speaker,
+                description=f"Location: {location}" if location else "",
+                link=link,
+                cutoff=cutoff,
+            )
+            if talk:
+                talks.append(talk)
+    except Exception as exc:
+        print(f"HKBU scrape failed: {exc}")
+    return talks
+
+
+def scrape_lingnan():
+    """Carousel slides carry title, speaker, and date as three stacked text nodes."""
+    base = "https://www.ln.edu.hk"
+    url = f"{base}/socsp/news-and-events/seminars"
+    talks = []
+    cutoff = cutoff_datetime()
+    try:
+        r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        for item in soup.select(".portrait-carousel-slider__item"):
+            title_tag = item.select_one(".portrait-carousel-slider__title")
+            text_tags = item.select(".portrait-carousel-slider__text")
+            if not title_tag or len(text_tags) < 2:
+                continue
+            title = clean_text(title_tag.get_text())
+            speaker = clean_text(text_tags[0].get_text())
+            date_text = clean_text(text_tags[1].get_text())
+            link_tag = item.select_one(".portrait-carousel-slider__link")
+            link = urljoin(base, link_tag["href"]) if link_tag and link_tag.get("href") else url
+            talk = make_talk(
+                title=title,
+                institution="Lingnan",
+                department="Department of Sociology & Social Policy",
+                date_text=date_text,
+                speaker=speaker,
+                description="",
+                link=link,
+                cutoff=cutoff,
+            )
+            if talk:
+                talks.append(talk)
+    except Exception as exc:
+        print(f"Lingnan scrape failed: {exc}")
+    return talks
+
+
+def scrape_eduhk():
+    """Server requires legacy TLS renegotiation; listing has title/date/time/venue, no speaker."""
+    base = "https://www.eduhk.hk"
+    url = f"{base}/ssps/news-events/events"
+    talks = []
+    cutoff = cutoff_datetime()
+    try:
+        session = requests.Session()
+        session.mount("https://", LegacySSLAdapter())
+        r = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        for card in soup.select(".event-card"):
+            title_tag = card.select_one(".card-title")
+            date_tag = card.select_one(".card-date time")
+            if not title_tag or not date_tag:
+                continue
+            title = clean_text(title_tag.get_text())
+            date_text = re.sub(r"\s+", " ", date_tag.get_text(strip=True))
+            time_text = clean_text(card.select_one(".card-time").get_text()) if card.select_one(".card-time") else ""
+            venue = clean_text(card.select_one(".card-address").get_text()) if card.select_one(".card-address") else ""
+            full_date_text = f"{date_text}, {time_text}" if date_text and time_text else date_text
+            link_tag = card.find("a", href=True)
+            link = urljoin(base, link_tag["href"]) if link_tag else url
+            talk = make_talk(
+                title=title,
+                institution="EdUHK",
+                department="Department of Social Sciences and Policy Studies",
+                date_text=date_text,
+                display_date=full_date_text,
+                speaker="",
+                description=f"Venue: {venue}" if venue else "",
+                link=link,
+                cutoff=cutoff,
+            )
+            if talk:
+                talks.append(talk)
+    except Exception as exc:
+        print(f"EdUHK scrape failed: {exc}")
+    return talks
+
+
 def main():
-    talks = scrape_hku() + scrape_cuhk()
+    talks = (
+        scrape_hku()
+        + scrape_cuhk()
+        + scrape_hkust()
+        + scrape_cityu()
+        + scrape_hkbu()
+        + scrape_lingnan()
+        + scrape_eduhk()
+    )
     if not talks:
         talks = FALLBACK_TALKS
 
