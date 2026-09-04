@@ -1,0 +1,2600 @@
+{
+  "last_updated": "2026-09-04T14:49:57.805503+00:00",
+  "total_talks": 259,
+  "talks": [
+    {
+      "title": "About Us",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Dean’s Message",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/deans-message/"
+    },
+    {
+      "title": "Vision & Mission",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/vision-and-mission/"
+    },
+    {
+      "title": "Facts & Figures",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/facts-and-figures/"
+    },
+    {
+      "title": "Faculty News",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-news/"
+    },
+    {
+      "title": "Faculty News",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-news/?searchNewsDate=&searchCategories=all&searchName="
+    },
+    {
+      "title": "Media",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Media & Communication"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-news/?searchNewsDate=&searchCategories=media&searchName="
+    },
+    {
+      "title": "People",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/people/"
+    },
+    {
+      "title": "Career Opportunities",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://jobs.hku.hk/en/filter/?search-keyword=&brand=faculty%20of%20social%20sciences"
+    },
+    {
+      "title": "Contact Us",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/contact-us/"
+    },
+    {
+      "title": "Departments & Centres",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/department-and-centre/"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Bachelor’s Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Dual Degree Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/dual-degree-programme-overview/"
+    },
+    {
+      "title": "Experiential Learning",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.socsc.hku.hk/sigc/"
+    },
+    {
+      "title": "Master",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/master-programme-overview/"
+    },
+    {
+      "title": "Master’s Programmes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/master-programme-overview/"
+    },
+    {
+      "title": "MPhil/PhD",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/mphil-phd/"
+    },
+    {
+      "title": "MPhil/PhD Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/mphil-phd/"
+    },
+    {
+      "title": "Summer School",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/summer-school/"
+    },
+    {
+      "title": "Summer School Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/summer-school/"
+    },
+    {
+      "title": "Strategic Research Themes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/strategic-research-themes/"
+    },
+    {
+      "title": "Strategic Research Themes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/strategic-research-themes/"
+    },
+    {
+      "title": "Population, Wellbeing & Human Behaviour",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Psychology"
+      ],
+      "link": "https://web.socsc.hku.hk/population-wellbeing-human-bahaviour/"
+    },
+    {
+      "title": "Urbanisation, Sustainability & Governance",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin",
+        "Geography & Urban Planning"
+      ],
+      "link": "https://web.socsc.hku.hk/urbanisation-sustainability-governance/"
+    },
+    {
+      "title": "Culture, Equity & Community Development",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/culture-equity-community-development/"
+    },
+    {
+      "title": "AI, Society & Social Dynamics",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/ai-society-social-dynamics/"
+    },
+    {
+      "title": "Thought Leadership",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/"
+    },
+    {
+      "title": "Honours",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=honours&searchTitle="
+    },
+    {
+      "title": "Publications",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=publications&searchTitle="
+    },
+    {
+      "title": "Research Insights",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=research-insights&searchTitle="
+    },
+    {
+      "title": "Featured Scholars",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=featured-scholars&searchTitle="
+    },
+    {
+      "title": "Knowledge Exchange",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Impact & Engagement",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=impact-engagement&searchTitle="
+    },
+    {
+      "title": "Impact Videos",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/impact-videos/"
+    },
+    {
+      "title": "In the Media",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Media & Communication"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=in-the-media&searchTitle="
+    },
+    {
+      "title": "Community Projects",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/community-projects/"
+    },
+    {
+      "title": "Visiting Professorship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/visiting-professorship/"
+    },
+    {
+      "title": "Visiting Professorship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/visiting-professorship/"
+    },
+    {
+      "title": "Global South Fellowship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/global-south-fellowship/"
+    },
+    {
+      "title": "Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "E-newsletter",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/e-newsletter/"
+    },
+    {
+      "title": "Career Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Career Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/UG-career-development/"
+    },
+    {
+      "title": "Masters",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/TPg-career-development/"
+    },
+    {
+      "title": "MPhil/PhD",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.cedars.hku.hk/careers/home"
+    },
+    {
+      "title": "Social Venture Lab",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/social-venture-lab/"
+    },
+    {
+      "title": "Wellbeing Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/mental-health-support/"
+    },
+    {
+      "title": "Alumni & Giving",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni/"
+    },
+    {
+      "title": "Alumni",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni/"
+    },
+    {
+      "title": "Alumni News and Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-news-and-events/"
+    },
+    {
+      "title": "FOSS Mentorship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-mentorship/"
+    },
+    {
+      "title": "Alumni Spotlight",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-spotlight/"
+    },
+    {
+      "title": "Alumni Community",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-community/"
+    },
+    {
+      "title": "Update Your Contacts",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/update-contacts/"
+    },
+    {
+      "title": "Faculty Development Fund",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-development-fund/"
+    },
+    {
+      "title": "Faculty Development Fund",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-development-fund/"
+    },
+    {
+      "title": "Faculty Souvenirs",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-souvenirs/"
+    },
+    {
+      "title": "Endowed Professorships and Outstanding Young Professorships",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/endowed-professorships/"
+    },
+    {
+      "title": "繁",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/tc/events/"
+    },
+    {
+      "title": "Current Students",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/current-students/"
+    },
+    {
+      "title": "HKU Portal",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://hkuportal.hku.hk/cas/aad"
+    },
+    {
+      "title": "Current Students",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/current-students/"
+    },
+    {
+      "title": "HKU Portal",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://hkuportal.hku.hk/cas/aad"
+    },
+    {
+      "title": "EN",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "繁",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/tc/events/"
+    },
+    {
+      "title": "About Us",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Dean’s Message",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/deans-message/"
+    },
+    {
+      "title": "Dean’s Message",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/deans-message/"
+    },
+    {
+      "title": "Dean’s Message",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/deans-message/"
+    },
+    {
+      "title": "Vision & Mission",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/vision-and-mission/"
+    },
+    {
+      "title": "Facts & Figures",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/facts-and-figures/"
+    },
+    {
+      "title": "Faculty News",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-news/"
+    },
+    {
+      "title": "Faculty News",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-news/?searchNewsDate=&searchCategories=all&searchName="
+    },
+    {
+      "title": "Media",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Media & Communication"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-news/?searchNewsDate=&searchCategories=media&searchName="
+    },
+    {
+      "title": "People",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/people/"
+    },
+    {
+      "title": "Career Opportunities",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://jobs.hku.hk/en/filter/?search-keyword=&brand=faculty%20of%20social%20sciences"
+    },
+    {
+      "title": "Contact Us",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/contact-us/"
+    },
+    {
+      "title": "Departments & Centres",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/department-and-centre/"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Bachelor’s Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/bachelor-programme-overview/"
+    },
+    {
+      "title": "Dual Degree Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/dual-degree-programme-overview/"
+    },
+    {
+      "title": "Experiential Learning",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.socsc.hku.hk/sigc/"
+    },
+    {
+      "title": "Master",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/master-programme-overview/"
+    },
+    {
+      "title": "Master’s Programmes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/master-programme-overview/"
+    },
+    {
+      "title": "MPhil/PhD",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/mphil-phd/"
+    },
+    {
+      "title": "MPhil/PhD Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/mphil-phd/"
+    },
+    {
+      "title": "Summer School",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/summer-school/"
+    },
+    {
+      "title": "Summer School Programme Overview",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/summer-school/"
+    },
+    {
+      "title": "Strategic Research Themes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/strategic-research-themes/"
+    },
+    {
+      "title": "Strategic Research Themes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/strategic-research-themes/"
+    },
+    {
+      "title": "Strategic Research Themes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/strategic-research-themes/"
+    },
+    {
+      "title": "Strategic Research Themes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/strategic-research-themes/"
+    },
+    {
+      "title": "Population, Wellbeing & Human Behaviour",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Psychology"
+      ],
+      "link": "https://web.socsc.hku.hk/population-wellbeing-human-bahaviour/"
+    },
+    {
+      "title": "Urbanisation, Sustainability & Governance",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin",
+        "Geography & Urban Planning"
+      ],
+      "link": "https://web.socsc.hku.hk/urbanisation-sustainability-governance/"
+    },
+    {
+      "title": "Culture, Equity & Community Development",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/culture-equity-community-development/"
+    },
+    {
+      "title": "AI, Society & Social Dynamics",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/ai-society-social-dynamics/"
+    },
+    {
+      "title": "Thought Leadership",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/"
+    },
+    {
+      "title": "Honours",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=honours&searchTitle="
+    },
+    {
+      "title": "Publications",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=publications&searchTitle="
+    },
+    {
+      "title": "Research Insights",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=research-insights&searchTitle="
+    },
+    {
+      "title": "Featured Scholars",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=featured-scholars&searchTitle="
+    },
+    {
+      "title": "Knowledge Exchange",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Impact & Engagement",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=impact-engagement&searchTitle="
+    },
+    {
+      "title": "Impact Videos",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/impact-videos/"
+    },
+    {
+      "title": "In the Media",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Media & Communication"
+      ],
+      "link": "https://web.socsc.hku.hk/thought-leadership/?leadershipDate=&searchCategories=in-the-media&searchTitle="
+    },
+    {
+      "title": "Community Projects",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/community-projects/"
+    },
+    {
+      "title": "Visiting Professorship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/visiting-professorship/"
+    },
+    {
+      "title": "Visiting Professorship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/visiting-professorship/"
+    },
+    {
+      "title": "Global South Fellowship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/global-south-fellowship/"
+    },
+    {
+      "title": "Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/events/"
+    },
+    {
+      "title": "E-newsletter",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/e-newsletter/"
+    },
+    {
+      "title": "Career Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Career Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Career Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Career Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Bachelor",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/UG-career-development/"
+    },
+    {
+      "title": "Masters",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/TPg-career-development/"
+    },
+    {
+      "title": "MPhil/PhD",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.cedars.hku.hk/careers/home"
+    },
+    {
+      "title": "Social Venture Lab",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/social-venture-lab/"
+    },
+    {
+      "title": "Wellbeing Support",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/mental-health-support/"
+    },
+    {
+      "title": "Alumni & Giving",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni/"
+    },
+    {
+      "title": "Alumni",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni/"
+    },
+    {
+      "title": "Alumni",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni/"
+    },
+    {
+      "title": "Alumni",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni/"
+    },
+    {
+      "title": "Alumni News and Events",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-news-and-events/"
+    },
+    {
+      "title": "FOSS Mentorship",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-mentorship/"
+    },
+    {
+      "title": "Alumni Spotlight",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-spotlight/"
+    },
+    {
+      "title": "Alumni Community",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/alumni-community/"
+    },
+    {
+      "title": "Update Your Contacts",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/update-contacts/"
+    },
+    {
+      "title": "Faculty Development Fund",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-development-fund/"
+    },
+    {
+      "title": "Faculty Development Fund",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-development-fund/"
+    },
+    {
+      "title": "Faculty Souvenirs",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/faculty-souvenirs/"
+    },
+    {
+      "title": "Endowed Professorships and Outstanding Young Professorships",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/endowed-professorships/"
+    },
+    {
+      "title": "繁",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/tc/events/"
+    },
+    {
+      "title": "Home",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/"
+    },
+    {
+      "title": "Contact Us",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/contact-us/"
+    },
+    {
+      "title": "Privacy Policy",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://hku.hk/about/policies_reports/privacy_policy.html"
+    },
+    {
+      "title": "High Contrast",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Normal Contrast",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "About Us",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/"
+    },
+    {
+      "title": "History",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/our-history/"
+    },
+    {
+      "title": "Administrative Structure",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/administrative-structure/"
+    },
+    {
+      "title": "Department Handbook",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/3d-flip-book/handbook/"
+    },
+    {
+      "title": "Facilities at CUHK",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/mphilphd-students-study-at-cuhk/"
+    },
+    {
+      "title": "Contact Us",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/contact-us/"
+    },
+    {
+      "title": "People",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/"
+    },
+    {
+      "title": "Full-time Faculty",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/faculty/"
+    },
+    {
+      "title": "Distinguished Fellows",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/distinguished-fellows/"
+    },
+    {
+      "title": "Other Faculty",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/other-faculty/"
+    },
+    {
+      "title": "Research & Teaching Support Staff",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/research-teaching-support-staff/"
+    },
+    {
+      "title": "Research Postgraduate Students",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/research-postgraduate-students-2/"
+    },
+    {
+      "title": "Master Degree Programme",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/research-postgraduate-students-2/master-degree-programme/"
+    },
+    {
+      "title": "Doctoral Degree Programme",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/people/research-postgraduate-students-2/doctoral-degree-programme/"
+    },
+    {
+      "title": "News & Events",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/news-events/"
+    },
+    {
+      "title": "News",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/news/"
+    },
+    {
+      "title": "Conferences",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/conferences/"
+    },
+    {
+      "title": "Seminars & Workshops",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/about/seminars-workshops/"
+    },
+    {
+      "title": "Job Opportunities",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/news-events/job-opportunities/"
+    },
+    {
+      "title": "Staff",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/news-events/job-opportunities/staff/"
+    },
+    {
+      "title": "Student Helpers",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/news-events/job-opportunities/student-helpers/"
+    },
+    {
+      "title": "Newsletter",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/news-events/newsletter/"
+    },
+    {
+      "title": "Useful Information (for internal use only)",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/news-events/useful-information-for-internal-use-only/"
+    },
+    {
+      "title": "Research",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/"
+    },
+    {
+      "title": "Research Centers & Lab",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/"
+    },
+    {
+      "title": "Centre for Population Research",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/"
+    },
+    {
+      "title": "About Us",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-about-us/"
+    },
+    {
+      "title": "Executive Committee",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-executive-committee/"
+    },
+    {
+      "title": "Research Clusters",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-research-clusters/"
+    },
+    {
+      "title": "Health",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-research-clusters-health/"
+    },
+    {
+      "title": "Inequality",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-research-clusters-inequality/"
+    },
+    {
+      "title": "Methods",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-research-clusters-methods/"
+    },
+    {
+      "title": "Migration",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-research-clusters-migration/"
+    },
+    {
+      "title": "Interdisciplinary Research Projects",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Interdisciplinary/Computational Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/cpr/cpr-research-projects/"
+    },
+    {
+      "title": "The Chinese University of Hong Kong – Xi’an Jiaotong University Joint Research Centre on Migration",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/the-chinese-university-of-hong-kong-xian-jiaotong-university-joint-research-centre-on-migration/"
+    },
+    {
+      "title": "About Us",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/the-chinese-university-of-hong-kong-xian-jiaotong-university-joint-research-centre-on-migration/about-us/"
+    },
+    {
+      "title": "Executive Committee",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-centers-lab/the-chinese-university-of-hong-kong-xian-jiaotong-university-joint-research-centre-on-migration/executive-committee/"
+    },
+    {
+      "title": "Social Governance and Sustainable Development Lab",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/social-governance-and-sustainable-development-lab/"
+    },
+    {
+      "title": "Computational Social Science Lab",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Interdisciplinary/Computational Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/computational-social-science-lab/"
+    },
+    {
+      "title": "Research Clusters",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/"
+    },
+    {
+      "title": "Computational Social Science",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Interdisciplinary/Computational Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/computational-social-science/"
+    },
+    {
+      "title": "Crime, Deviance & Law",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/crime-deviance/"
+    },
+    {
+      "title": "Economy, Politics & Society",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin",
+        "Economics"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/economy-politics-society/"
+    },
+    {
+      "title": "Family, Gender & Sexuality",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/family-gender-sexuality/"
+    },
+    {
+      "title": "Population, Health & Migration",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/migration-health-population/"
+    },
+    {
+      "title": "Stratification & Education",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/research/research-clusters/stratification-education/"
+    },
+    {
+      "title": "Undergraduate",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/"
+    },
+    {
+      "title": "Admissions",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/admissions/"
+    },
+    {
+      "title": "What is Sociology",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/admissions/what-is-sociology/"
+    },
+    {
+      "title": "Brochure",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/3d-flip-book/sociology-programme-admission-brochure/"
+    },
+    {
+      "title": "JUPAS Applicants",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/admissions/jupas-applicants/"
+    },
+    {
+      "title": "Other Applicants",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/admissions/other-applicants/"
+    },
+    {
+      "title": "Admissions Talks",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/admissions/admissions-talks/"
+    },
+    {
+      "title": "FAQ",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/admissions/faq/"
+    },
+    {
+      "title": "Programmes",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/programmes/"
+    },
+    {
+      "title": "Major",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/programmes/major/"
+    },
+    {
+      "title": "Minor",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/programmes/minor/"
+    },
+    {
+      "title": "Collaborative Programmes",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Economics"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/programmes/collaborative-programmes/"
+    },
+    {
+      "title": "Curriculum",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/"
+    },
+    {
+      "title": "Courses",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/courses/"
+    },
+    {
+      "title": "Concentrations",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/"
+    },
+    {
+      "title": "Human Security and Social Governance (New)",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/human-security-and-social-governance/"
+    },
+    {
+      "title": "Research Methods and Data Analytics",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/sociology-concentrations-social-research/"
+    },
+    {
+      "title": "Sociology and Liberal Studies (applicable to students admitted in 2021/22 and before)",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/sociology-and-liberal-studies/"
+    },
+    {
+      "title": "Sociology and Social Policy",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Sociology",
+        "Political Science & Public Admin"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/sociology-and-social-policy/"
+    },
+    {
+      "title": "Society, Sustainability and Technology",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/undergraduate-undergraduate-programme-sociology-concentrations-society-sustainability-and-technology/"
+    },
+    {
+      "title": "Society And Sustainable Development",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/curriculum/concentrations/society-and-sustainable-development-sociology-programme/"
+    },
+    {
+      "title": "Awards and Scholarships",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/awards-and-scholarships/"
+    },
+    {
+      "title": "Career",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/career/"
+    },
+    {
+      "title": "Career Path",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/career/career-path/"
+    },
+    {
+      "title": "Internship",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/career/internship/"
+    },
+    {
+      "title": "Student Life",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/student-life/"
+    },
+    {
+      "title": "Exchange",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/student-life/exchange/"
+    },
+    {
+      "title": "Student Sharing",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/student-life/student-sharing/"
+    },
+    {
+      "title": "Student Association",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/student-life/student-association/"
+    },
+    {
+      "title": "Information for Students",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/information-for-students/"
+    },
+    {
+      "title": "Academic Integrity",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/information-for-students/academic-integrity/"
+    },
+    {
+      "title": "Capstone Study",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/information-for-students/capstone-study/"
+    },
+    {
+      "title": "Application",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/undergraduate/information-for-students/application/"
+    },
+    {
+      "title": "Expected Outcomes of Undergraduate Programme in Sociology",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/expected-outcomes-of-undergraduate-programme-in-sociology/"
+    },
+    {
+      "title": "Postgraduate",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/"
+    },
+    {
+      "title": "MPhil/PhD Programme",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/"
+    },
+    {
+      "title": "Admissions",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/admissions/"
+    },
+    {
+      "title": "Requirements",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/admissions/requirements/"
+    },
+    {
+      "title": "Introduction",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/introduction/"
+    },
+    {
+      "title": "Curriculum",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/curriculum/"
+    },
+    {
+      "title": "Course List",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/curriculum/course-list/"
+    },
+    {
+      "title": "Study Scheme",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/curriculum/study-scheme/"
+    },
+    {
+      "title": "Awards and Scholarships",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/awards-and-scholarships/"
+    },
+    {
+      "title": "Theses",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/theses/"
+    },
+    {
+      "title": "Further Studies and Employment",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/further-studies-and-employment/"
+    },
+    {
+      "title": "Information for current students",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/mphilphd-students-announcements/"
+    },
+    {
+      "title": "Newsletter",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/mphil-phd-programme/newsletter/"
+    },
+    {
+      "title": "MA Programme",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/"
+    },
+    {
+      "title": "Admissions",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/admissions/"
+    },
+    {
+      "title": "Requirements",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/admissions/requirements/"
+    },
+    {
+      "title": "Admissions Talks",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/admissions/admissions-talks/"
+    },
+    {
+      "title": "FAQ",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/admissions/faq/"
+    },
+    {
+      "title": "Introduction",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/"
+    },
+    {
+      "title": "Programme",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/programme/"
+    },
+    {
+      "title": "People",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/people/"
+    },
+    {
+      "title": "Curriculum",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/curriculum/"
+    },
+    {
+      "title": "Study Plan and Course List",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/curriculum/study-plan-and-course-list/"
+    },
+    {
+      "title": "Course Selection",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/curriculum/course-selection/"
+    },
+    {
+      "title": "Timetable",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/curriculum/timetable/"
+    },
+    {
+      "title": "Awards and Scholarships",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/awards-and-scholarships/"
+    },
+    {
+      "title": "Useful Links",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/useful-links/"
+    },
+    {
+      "title": "Privacy Policy",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/privacy-policy/"
+    },
+    {
+      "title": "Disclaimer",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/disclaimer/"
+    },
+    {
+      "title": "Sitemap",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/sitemap/"
+    }
+  ]
+}
