@@ -1,3 +1,4 @@
+# Scrapes HK university social science talk listings daily.
 name: Daily talks update
 
 on:
