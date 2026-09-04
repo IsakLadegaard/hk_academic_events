@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T15:15:40.817081+00:00",
+  "last_updated": "2026-09-04T15:22:46.164548+00:00",
   "total_talks": 4,
   "talks": [
     {
@@ -8,7 +8,7 @@
       "department": "Faculty of Social Sciences",
       "date": "September 16, 2026, 11:00am -12:30pm",
       "speaker": "Prof Xin YAO",
-      "description": "Prof Xin YAO (Lingnan University (Hong Kong), Biography)",
+      "description": "Prof Xin YAO (Lingnan University (Hong Kong))",
       "disciplines": [
         "General Social Science"
       ],
@@ -20,7 +20,7 @@
       "department": "Faculty of Social Sciences",
       "date": "September 23, 2026, 3:30 - 5:00 pm",
       "speaker": "Professor Richard Hu",
-      "description": "Professor Richard Hu (Professor of Politics and Public Policy, University of Macau, Biography)",
+      "description": "Professor Richard Hu (Professor of Politics and Public Policy, University of Macau)",
       "disciplines": [
         "Political Science & Public Admin"
       ],
@@ -31,8 +31,8 @@
       "institution": "HKU",
       "department": "Faculty of Social Sciences",
       "date": "September 14, 2026, 11:00 am - 12:15 pm",
-      "speaker": "Speaker:; Moderator:",
-      "description": "Speaker: (Professor Kun Wang, Professor Kun Wang, Assistant Professor in the Department of Social Work, The Univeristy of Alabama at Birmingham, Biography); Moderator: (Professor Vivian W.Q. Lou, Professor Vivian W.Q. Lou, Head and Professor of the Department of Social Work and Social Administration, Director of the Sau Po Centre on Ageing, Associate Director and Cluster Leader (Ageing), Research Hub of Population Studies, Faculty of Social Sciences, The University of Hong Kong, Biography)",
+      "speaker": "Professor Kun Wang; Professor Vivian W.Q. Lou",
+      "description": "Professor Kun Wang (Assistant Professor in the Department of Social Work, The Univeristy of Alabama at Birmingham); Professor Vivian W.Q. Lou (Head and Professor of the Department of Social Work and Social Administration, Director of the Sau Po Centre on Ageing, Associate Director and Cluster Leader (Ageing), Research Hub of Population Studies, Faculty of Social Sciences, The University of Hong Kong)",
       "disciplines": [
         "Sociology",
         "Psychology"
@@ -45,7 +45,7 @@
       "department": "Faculty of Social Sciences",
       "date": "September 8, 2026, 12:00nn -13:30am",
       "speaker": "Dr. Yingying PENG",
-      "description": "Dr. Yingying PENG (The Hong Kong University of Science and Technology (HKUST), Biography)",
+      "description": "Dr. Yingying PENG (The Hong Kong University of Science and Technology (HKUST))",
       "disciplines": [
         "General Social Science"
       ],
