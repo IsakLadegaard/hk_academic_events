@@ -60,8 +60,18 @@ def check_wp_api(label, base):
             print(f"{slug}: error {exc}")
 
 
+def dump_full_event(label, base):
+    print(f"\n===== {label} full event sample =====")
+    r = requests.get(f"{base}/wp-json/wp/v2/event?per_page=2&orderby=date&order=desc", headers=UA, timeout=20)
+    print("status:", r.status_code)
+    if r.status_code == 200:
+        import json
+        data = r.json()
+        print(json.dumps(data, indent=2, ensure_ascii=False)[:6000])
+
+
 if __name__ == "__main__":
-    inspect("HKU", "https://web.socsc.hku.hk/events/")
-    inspect("CUHK", "https://www.soc.cuhk.edu.hk/about/seminars-workshops/")
     check_wp_api("HKU", "https://web.socsc.hku.hk")
     check_wp_api("CUHK", "https://www.soc.cuhk.edu.hk")
+    dump_full_event("HKU", "https://web.socsc.hku.hk")
+    dump_full_event("CUHK", "https://www.soc.cuhk.edu.hk")
