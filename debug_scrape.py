@@ -37,6 +37,31 @@ def inspect(label, url):
     print(str(main)[:3000] if main else "(none found)")
 
 
+def check_wp_api(label, base):
+    print(f"\n===== {label} WP REST API: {base} =====")
+    try:
+        r = requests.get(f"{base}/wp-json/wp/v2/types", headers=UA, timeout=20)
+        print("types status:", r.status_code)
+        if r.status_code == 200:
+            print(list(r.json().keys()))
+    except Exception as exc:
+        print("types error:", exc)
+
+    for slug in ["events", "event", "tribe_events", "posts"]:
+        try:
+            r = requests.get(f"{base}/wp-json/wp/v2/{slug}?per_page=5", headers=UA, timeout=20)
+            print(f"{slug}: status {r.status_code}, len {len(r.text)}")
+            if r.status_code == 200:
+                data = r.json()
+                if isinstance(data, list) and data:
+                    print("sample keys:", list(data[0].keys()))
+                    print("sample title:", data[0].get("title"))
+        except Exception as exc:
+            print(f"{slug}: error {exc}")
+
+
 if __name__ == "__main__":
     inspect("HKU", "https://web.socsc.hku.hk/events/")
     inspect("CUHK", "https://www.soc.cuhk.edu.hk/about/seminars-workshops/")
+    check_wp_api("HKU", "https://web.socsc.hku.hk")
+    check_wp_api("CUHK", "https://www.soc.cuhk.edu.hk")
