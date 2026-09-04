@@ -31,10 +31,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- talks.json; then
+          git add talks.json
+          if git diff --cached --quiet -- talks.json; then
             echo "No changes to talks.json"
           else
-            git add talks.json
             git commit -m "Update talks.json"
             git push
           fi
