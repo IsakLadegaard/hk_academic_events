@@ -25,7 +25,7 @@ def hkbu():
     print("\n===== HKBU: walk up from known strings =====")
     r = requests.get("https://socweb.hkbu.edu.hk/research/seminars.html", headers=UA, timeout=20)
     soup = BeautifulSoup(r.text, "html.parser")
-    node = walk_up_from_text(soup, "CCL Seminar: Dr. Ruby Chau")
+    node = walk_up_from_text(soup, "Speaker:")
     if node:
         ancestor = node.parent.parent.parent
         print("\n--- candidate container (level 2 up) HTML ---")
