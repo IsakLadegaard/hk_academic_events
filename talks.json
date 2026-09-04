@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-04T15:22:46.164548+00:00",
-  "total_talks": 4,
+  "last_updated": "2026-09-04T17:00:06.737237+00:00",
+  "total_talks": 5,
   "talks": [
     {
       "title": "Coevolving Game-playing Strategies",
@@ -50,6 +50,18 @@
         "General Social Science"
       ],
       "link": "https://web.socsc.hku.hk/event/brown-bag-seminar-series-from-social-presence-to-social-interaction-multimodal-naturalistic-neuroimaging-of-learning-in-the-age-of-ai/"
+    },
+    {
+      "title": "Seminar - Demand-Driven Misallocation: The Upstream Impact of Search Frictions in Retail",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "4 September 2026",
+      "speaker": "",
+      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-demand-driven-misallocation-upstream-impact-search-frictions-retail"
     }
   ]
 }
