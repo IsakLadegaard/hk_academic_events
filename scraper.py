@@ -1,5 +1,11 @@
-"""Scrapes HK university social science talk listings into talks.json."""
+"""Scrapes HK university social science talk listings into talks.json.
 
+HKU and CUHK both expose their event listings as a WordPress REST API
+custom post type (/wp-json/wp/v2/event) rather than server-rendered HTML,
+so we pull structured JSON instead of parsing markup.
+"""
+
+import html
 import json
 from datetime import datetime, timezone
 
@@ -8,6 +14,7 @@ from bs4 import BeautifulSoup
 
 USER_AGENT = "Mozilla/5.0 (compatible; hk-academic-events-bot/1.0)"
 REQUEST_TIMEOUT = 20
+MAX_EVENTS_PER_SITE = 100
 
 DISCIPLINE_KEYWORDS = {
     "Sociology": ["sociolog", "social theory", "social stratification", "inequality", "social movement"],
@@ -50,38 +57,45 @@ def classify_disciplines(title):
     return matched if matched else [DEFAULT_DISCIPLINE]
 
 
-def fetch_soup(url):
-    response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+def clean_text(raw):
+    unescaped = html.unescape(raw or "")
+    return BeautifulSoup(unescaped, "html.parser").get_text().strip()
+
+
+def split_date_prefix(raw_title):
+    """Some sites prefix titles with a date before a '|', e.g. 'Aug 20 | Talk name'."""
+    if "|" in raw_title:
+        prefix, rest = raw_title.split("|", 1)
+        prefix, rest = prefix.strip(), rest.strip()
+        if rest and len(prefix) <= 40 and any(ch.isdigit() for ch in prefix):
+            return prefix, rest
+    return "", raw_title
+
+
+def fetch_events(api_base):
+    url = f"{api_base}/wp-json/wp/v2/event"
+    params = {"per_page": MAX_EVENTS_PER_SITE, "orderby": "date", "order": "desc"}
+    response = requests.get(url, params=params, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
-    return BeautifulSoup(response.text, "html.parser")
+    return response.json()
 
 
 def scrape_hku():
-    url = "https://web.socsc.hku.hk/events/"
     talks = []
     try:
-        soup = fetch_soup(url)
-        items = soup.select("article") or soup.select(".event") or soup.select("li")
-        for item in items:
-            link_tag = item.find("a", href=True)
-            title_tag = item.find(["h1", "h2", "h3", "h4"]) or link_tag
-            if not title_tag:
+        events = fetch_events("https://web.socsc.hku.hk")
+        for event in events:
+            raw_title = clean_text(event.get("title", {}).get("rendered", ""))
+            if not raw_title:
                 continue
-            title = title_tag.get_text(strip=True)
-            if not title:
-                continue
-            date_tag = item.find(class_=lambda c: c and "date" in c.lower()) if item.find(class_=True) else None
-            date = date_tag.get_text(strip=True) if date_tag else ""
-            link = link_tag["href"] if link_tag else url
-            if link.startswith("/"):
-                link = "https://web.socsc.hku.hk" + link
+            date, title = split_date_prefix(raw_title)
             talks.append({
                 "title": title,
                 "institution": "HKU",
                 "department": "Faculty of Social Sciences",
                 "date": date,
                 "disciplines": classify_disciplines(title),
-                "link": link,
+                "link": event.get("link", "https://web.socsc.hku.hk/events/"),
             })
     except Exception as exc:
         print(f"HKU scrape failed: {exc}")
@@ -89,31 +103,21 @@ def scrape_hku():
 
 
 def scrape_cuhk():
-    url = "https://www.soc.cuhk.edu.hk/about/seminars-workshops/"
     talks = []
     try:
-        soup = fetch_soup(url)
-        items = soup.select("article") or soup.select(".event") or soup.select("li")
-        for item in items:
-            link_tag = item.find("a", href=True)
-            title_tag = item.find(["h1", "h2", "h3", "h4"]) or link_tag
-            if not title_tag:
+        events = fetch_events("https://www.soc.cuhk.edu.hk")
+        for event in events:
+            raw_title = clean_text(event.get("title", {}).get("rendered", ""))
+            if not raw_title:
                 continue
-            title = title_tag.get_text(strip=True)
-            if not title:
-                continue
-            date_tag = item.find(class_=lambda c: c and "date" in c.lower()) if item.find(class_=True) else None
-            date = date_tag.get_text(strip=True) if date_tag else ""
-            link = link_tag["href"] if link_tag else url
-            if link.startswith("/"):
-                link = "https://www.soc.cuhk.edu.hk" + link
+            date, title = split_date_prefix(raw_title)
             talks.append({
                 "title": title,
                 "institution": "CUHK",
                 "department": "Department of Sociology",
                 "date": date,
                 "disciplines": classify_disciplines(title),
-                "link": link,
+                "link": event.get("link", "https://www.soc.cuhk.edu.hk/about/seminars-workshops/"),
             })
     except Exception as exc:
         print(f"CUHK scrape failed: {exc}")
