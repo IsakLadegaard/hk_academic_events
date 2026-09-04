@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HK Social Science Talks</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen">
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold">Hong Kong Social Science Talks</h1>
+      <p class="text-slate-600 mt-1">A directory of academic talks and seminars across HK universities.</p>
+      <p id="last-updated" class="text-sm text-slate-400 mt-2"></p>
+    </header>
+
+    <div class="flex flex-col sm:flex-row gap-3 mb-6">
+      <input id="search" type="text" placeholder="Search titles..."
+        class="flex-1 border border-slate-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-slate-400">
+      <select id="institution-filter" class="border border-slate-300 rounded-lg px-3 py-2">
+        <option value="">All institutions</option>
+      </select>
+      <select id="discipline-filter" class="border border-slate-300 rounded-lg px-3 py-2">
+        <option value="">All disciplines</option>
+      </select>
+    </div>
+
+    <div id="count" class="text-sm text-slate-500 mb-4"></div>
+    <div id="talks" class="grid gap-4"></div>
+    <div id="empty" class="text-center text-slate-400 py-16 hidden">No talks match your filters.</div>
+  </div>
+
+<script>
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str == null ? '' : String(str);
+  return div.innerHTML;
+}
+
+function isSafeLink(url) {
+  if (typeof url !== 'string') return false;
+  try {
+    const parsed = new URL(url, window.location.href);
+    return parsed.protocol === 'http:' || parsed.protocol === 'https:';
+  } catch (e) {
+    return false;
+  }
+}
+
+let allTalks = [];
+
+function populateFilterOptions() {
+  const institutions = new Set();
+  const disciplines = new Set();
+  allTalks.forEach(t => {
+    if (t.institution) institutions.add(t.institution);
+    (t.disciplines || []).forEach(d => disciplines.add(d));
+  });
+
+  const instSelect = document.getElementById('institution-filter');
+  [...institutions].sort().forEach(inst => {
+    const opt = document.createElement('option');
+    opt.value = inst;
+    opt.textContent = inst;
+    instSelect.appendChild(opt);
+  });
+
+  const discSelect = document.getElementById('discipline-filter');
+  [...disciplines].sort().forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d;
+    opt.textContent = d;
+    discSelect.appendChild(opt);
+  });
+}
+
+function renderTalks() {
+  const query = document.getElementById('search').value.trim().toLowerCase();
+  const inst = document.getElementById('institution-filter').value;
+  const disc = document.getElementById('discipline-filter').value;
+
+  const filtered = allTalks.filter(t => {
+    const title = (t.title || '').toLowerCase();
+    if (query && !title.includes(query)) return false;
+    if (inst && t.institution !== inst) return false;
+    if (disc && !(t.disciplines || []).includes(disc)) return false;
+    return true;
+  });
+
+  const container = document.getElementById('talks');
+  const emptyEl = document.getElementById('empty');
+  container.innerHTML = '';
+  document.getElementById('count').textContent = `${filtered.length} talk${filtered.length === 1 ? '' : 's'}`;
+
+  emptyEl.hidden = filtered.length !== 0;
+
+  filtered.forEach(t => {
+    const card = document.createElement('div');
+    card.className = 'bg-white border border-slate-200 rounded-xl p-5 shadow-sm';
+
+    const titleEl = document.createElement('h2');
+    titleEl.className = 'text-lg font-semibold';
+
+    if (isSafeLink(t.link)) {
+      const a = document.createElement('a');
+      a.href = t.link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.className = 'hover:underline text-slate-900';
+      a.textContent = t.title || 'Untitled talk';
+      titleEl.appendChild(a);
+    } else {
+      titleEl.textContent = t.title || 'Untitled talk';
+    }
+    card.appendChild(titleEl);
+
+    const meta = document.createElement('p');
+    meta.className = 'text-sm text-slate-600 mt-1';
+    meta.textContent = [t.institution, t.department, t.date].filter(Boolean).join(' · ');
+    card.appendChild(meta);
+
+    if (t.disciplines && t.disciplines.length) {
+      const tagWrap = document.createElement('div');
+      tagWrap.className = 'flex flex-wrap gap-2 mt-3';
+      t.disciplines.forEach(d => {
+        const tag = document.createElement('span');
+        tag.className = 'text-xs bg-slate-100 text-slate-700 px-2 py-1 rounded-full';
+        tag.textContent = d;
+        tagWrap.appendChild(tag);
+      });
+      card.appendChild(tagWrap);
+    }
+
+    container.appendChild(card);
+  });
+}
+
+fetch('./talks.json')
+  .then(res => res.json())
+  .then(data => {
+    allTalks = Array.isArray(data.talks) ? data.talks : [];
+    const updated = document.getElementById('last-updated');
+    if (data.last_updated) {
+      updated.textContent = `Last updated: ${escapeHtml(data.last_updated)}`;
+    }
+    populateFilterOptions();
+    renderTalks();
+  })
+  .catch(err => {
+    document.getElementById('talks').innerHTML =
+      '<p class="text-red-500">Could not load talks.json</p>';
+    console.error(err);
+  });
+
+document.getElementById('search').addEventListener('input', renderTalks);
+document.getElementById('institution-filter').addEventListener('change', renderTalks);
+document.getElementById('discipline-filter').addEventListener('change', renderTalks);
+</script>
+</body>
+</html>
