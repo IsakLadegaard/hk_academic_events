@@ -16,7 +16,21 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 python-dateutil
 
-      - name: Run debug scrape
-        run: python debug_scrape.py
+      - name: Run scraper (dry run, no commit)
+        run: |
+          python scraper.py
+          echo "----- talks.json summary -----"
+          python3 -c "
+import json
+d = json.load(open('talks.json'))
+print('total_talks:', d['total_talks'])
+for t in d['talks'][:15]:
+    print('---')
+    print('title:', t['title'])
+    print('date:', t['date'])
+    print('speaker:', t['speaker'])
+    print('description:', t['description'])
+    print('disciplines:', t['disciplines'])
+"

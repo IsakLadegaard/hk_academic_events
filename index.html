@@ -122,6 +122,20 @@ function renderTalks() {
     meta.textContent = [t.institution, t.department, t.date].filter(Boolean).join(' · ');
     card.appendChild(meta);
 
+    if (t.speaker) {
+      const speakerEl = document.createElement('p');
+      speakerEl.className = 'text-sm text-slate-800 font-medium mt-2';
+      speakerEl.textContent = t.speaker;
+      card.appendChild(speakerEl);
+    }
+
+    if (t.description) {
+      const descEl = document.createElement('p');
+      descEl.className = 'text-sm text-slate-600 mt-1';
+      descEl.textContent = t.description;
+      card.appendChild(descEl);
+    }
+
     if (t.disciplines && t.disciplines.length) {
       const tagWrap = document.createElement('div');
       tagWrap.className = 'flex flex-wrap gap-2 mt-3';
