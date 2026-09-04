@@ -20,7 +20,7 @@ from dateutil import parser as dateparser
 USER_AGENT = "Mozilla/5.0 (compatible; hk-academic-events-bot/1.0)"
 REQUEST_TIMEOUT = 20
 REQUEST_DELAY_SECONDS = 0.2
-MAX_EVENTS_PER_SITE = 50
+MAX_EVENTS_PER_SITE = 80
 MAX_PAST_DAYS = 3
 HK_TZ = timezone(timedelta(hours=8))
 
@@ -84,22 +84,44 @@ def strip_title_date_prefix(raw_title):
     return raw_title
 
 
+def _parse_one_date(text, year_hint):
+    try:
+        return dateparser.parse(text, fuzzy=True, default=datetime(year_hint, 1, 1))
+    except (ValueError, OverflowError):
+        return None
+
+
 def parse_event_date(raw_text):
-    """Returns (datetime | None, display_text) from a messy human date string."""
+    """Returns (start, end, display_text). end == start for a single-day event.
+
+    end is used for the "still upcoming" cutoff check so multi-day ranges
+    (e.g. "31 August - 3 September 2026") aren't dropped just because they
+    started more than MAX_PAST_DAYS ago.
+    """
     if not raw_text:
-        return None, ""
+        return None, None, ""
     text = re.sub(r"\([^)]*\)", "", raw_text).strip()
     parts = re.split(r"\s*[–—-]\s*|\s+to\s+", text, maxsplit=1)
+    year_hint = datetime.now(HK_TZ).year
+
     first = parts[0].strip()
-    try:
-        dt = dateparser.parse(first, fuzzy=True, default=datetime(datetime.now(HK_TZ).year, 1, 1))
-    except (ValueError, OverflowError):
-        return None, text
-    if len(parts) > 1 and not re.search(r"\d{4}", first):
-        year_match = re.search(r"\d{4}", parts[1])
-        if year_match:
-            dt = dt.replace(year=int(year_match.group()))
-    return dt, text
+    start = _parse_one_date(first, year_hint)
+    if start is None:
+        return None, None, text
+
+    end = start
+    if len(parts) > 1:
+        second = parts[1].strip()
+        end_year_hint = start.year
+        year_match = re.search(r"\d{4}", second)
+        parsed_end = _parse_one_date(second, end_year_hint)
+        if parsed_end is not None:
+            end = parsed_end
+            if not re.search(r"\d{4}", first) and year_match:
+                start = start.replace(year=end.year)
+                end = end.replace(year=end.year)
+
+    return start, end, text
 
 
 def fetch_events(api_base):
@@ -116,6 +138,22 @@ def fetch_event_page(url):
     return BeautifulSoup(response.text, "html.parser")
 
 
+ROLE_LABELS = {"speaker", "speakers", "moderator", "chair", "discussant", "respondent", "panelist", "host"}
+SKIP_LINES = ROLE_LABELS | {"biography", "download bio", "bio"}
+
+
+def _clean_speaker_lines(raw_lines):
+    lines = []
+    for line in raw_lines:
+        normalized = line.strip().rstrip(":").lower()
+        if not normalized or normalized in SKIP_LINES:
+            continue
+        if lines and lines[-1] == line:
+            continue  # drop consecutive duplicates (e.g. swiper loop clones)
+        lines.append(line)
+    return lines
+
+
 def extract_hku_details(soup):
     info = {}
     for row in soup.select(".hkusocsc-event-detail-info-box-row"):
@@ -126,8 +164,9 @@ def extract_hku_details(soup):
             info[key] = value
 
     speakers = []
-    for block in soup.select(".event-speaker-info"):
-        lines = [line for line in block.get_text("\n", strip=True).split("\n") if line]
+    for block in soup.select(".swiper-slide:not(.swiper-slide-duplicate) .event-speaker-info"):
+        raw_lines = [line for line in block.get_text("\n", strip=True).split("\n") if line]
+        lines = _clean_speaker_lines(raw_lines)
         if lines:
             name = lines[0]
             detail = ", ".join(lines[1:])
@@ -200,10 +239,10 @@ def scrape_site(api_base, institution, department, extractor):
             finally:
                 time.sleep(REQUEST_DELAY_SECONDS)
 
-            parsed_date, _ = parse_event_date(date_text)
-            if parsed_date is None:
+            start_date, end_date, _ = parse_event_date(date_text)
+            if start_date is None:
                 continue
-            if parsed_date.replace(tzinfo=HK_TZ) < cutoff:
+            if end_date.replace(tzinfo=HK_TZ) < cutoff:
                 continue
 
             title = strip_title_date_prefix(raw_title)
