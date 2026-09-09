@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-09-08T02:52:27.144170+00:00",
-  "total_talks": 5,
+  "last_updated": "2026-09-09T02:49:54.316529+00:00",
+  "total_talks": 6,
   "talks": [
+    {
+      "title": "Can Machines Negotiate a Government? LLM Agents, Coalition Formation, and  the Validity Problem in Computational Social Science",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "September 21, 2026, 11:00 am - 12:15 pm",
+      "speaker": "Professor Slava Jankin",
+      "description": "Professor Slava Jankin (Professor and Chair in Data Science and Government, School of Government & School of Computer Science, University of Birmingham)",
+      "disciplines": [
+        "Interdisciplinary/Computational Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/cmng/"
+    },
     {
       "title": "Coevolving Game-playing Strategies",
       "institution": "HKU",
