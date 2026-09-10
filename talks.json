@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-09-09T02:49:54.316529+00:00",
-  "total_talks": 6,
+  "last_updated": "2026-09-10T02:54:14.966688+00:00",
+  "total_talks": 7,
   "talks": [
+    {
+      "title": "Academic Writing Workshops for “A” Grade Papers",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 12, 2026  - October 16, 2026, 10:00am - 12:00nn / 6:30 pm - 8:30pm",
+      "speaker": "",
+      "description": "Venue: The Jockey Club Tower, Centennial Campus, HKU",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
+    },
     {
       "title": "Can Machines Negotiate a Government? LLM Agents, Coalition Formation, and  the Validity Problem in Computational Social Science",
       "institution": "HKU",
