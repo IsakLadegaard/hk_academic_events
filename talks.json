@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-11T02:47:14.734032+00:00",
-  "total_talks": 7,
+  "last_updated": "2026-09-12T02:55:54.688625+00:00",
+  "total_talks": 6,
   "talks": [
     {
       "title": "Academic Writing Workshops for “A” Grade Papers",
@@ -62,18 +62,6 @@
         "Psychology"
       ],
       "link": "https://web.socsc.hku.hk/event/rhps-awcds/"
-    },
-    {
-      "title": "Brown Bag Seminar Series: From Social Presence to Social Interaction: Multimodal Naturalistic Neuroimaging of Learning in the Age of AI",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "September 8, 2026, 12:00nn -13:30am",
-      "speaker": "Dr. Yingying PENG",
-      "description": "Dr. Yingying PENG (The Hong Kong University of Science and Technology (HKUST))",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://web.socsc.hku.hk/event/brown-bag-seminar-series-from-social-presence-to-social-interaction-multimodal-naturalistic-neuroimaging-of-learning-in-the-age-of-ai/"
     },
     {
       "title": "[CSSL@CUHK Webinar] Small Language Models for Sensitive and Large-Scale Text Analysis: Lessons from 1.3 Million Child Welfare Narratives",
