@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-09-14T03:09:18.891179+00:00",
-  "total_talks": 6,
+  "last_updated": "2026-09-15T03:09:42.940205+00:00",
+  "total_talks": 8,
   "talks": [
+    {
+      "title": "Research Mixer Salon #15",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "September 25, 2026, 10:30am - 11:30am",
+      "speaker": "Professor Kuishuang Feng; Professor Hui Li; Professor Yanjuan Li; Professor Bo Huang",
+      "description": "Professor Kuishuang Feng (Professor,, Department of Geography); Professor Hui Li (Associate Professor,, Department of Politics & Public Administration); Professor Yanjuan Li (Assistant Professor,, Department of Social Work & Social Administration); Professor Bo Huang (Chair Professor, Department of Geography; Member, Faculty Research Advisory Panel)",
+      "disciplines": [
+        "Political Science & Public Admin",
+        "Geography & Urban Planning"
+      ],
+      "link": "https://web.socsc.hku.hk/event/research-mixer-salon-15/"
+    },
+    {
+      "title": "HKU RHPS Seminar Series: From Homes to Systems: Re-engineering Environments for Caregiving, Aging, and Equity",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 10, 2026, 2:30 - 3:30 pm",
+      "speaker": "Professor Nathan Adam Boucher; Dr Anthan Xuhong Li",
+      "description": "Professor Nathan Adam Boucher (Associate Research Professor, Sanford School of Public Policy, Associate Professor, Medicine (Geriatrics & Palliative Care), Nursing, and Population Health Sciences, Duke University); Dr Anthan Xuhong Li (Post-doctoral Fellow, Sau Po Centre on Ageing, The University of Hong Kong)",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://web.socsc.hku.hk/event/rhps-reca/"
+    },
     {
       "title": "Academic Writing Workshops for “A” Grade Papers",
       "institution": "HKU",
