@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-17T03:09:42.419720+00:00",
-  "total_talks": 8,
+  "last_updated": "2026-09-18T02:58:54.197944+00:00",
+  "total_talks": 7,
   "talks": [
     {
       "title": "Research Mixer Salon #15",
@@ -74,19 +74,6 @@
         "Political Science & Public Admin"
       ],
       "link": "https://web.socsc.hku.hk/event/gs-tfpa/"
-    },
-    {
-      "title": "HKU RHPS Seminar Series: Aging in a Digital Society: What Population Data Can and Cannot Tell Us About Cognitive Aging, Digital Inequality, and Self-Perceptions of Aging",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "September 14, 2026, 11:00 am - 12:15 pm",
-      "speaker": "Professor Kun Wang; Professor Vivian W.Q. Lou",
-      "description": "Professor Kun Wang (Assistant Professor in the Department of Social Work, The Univeristy of Alabama at Birmingham); Professor Vivian W.Q. Lou (Head and Professor of the Department of Social Work and Social Administration, Director of the Sau Po Centre on Ageing, Associate Director and Cluster Leader (Ageing), Research Hub of Population Studies, Faculty of Social Sciences, The University of Hong Kong)",
-      "disciplines": [
-        "Sociology",
-        "Psychology"
-      ],
-      "link": "https://web.socsc.hku.hk/event/rhps-awcds/"
     },
     {
       "title": "(CANCELLED) [CSSL@CUHK Webinar] Small Language Models for Sensitive and Large-Scale Text Analysis: Lessons from 1.3 Million Child Welfare Narratives",
