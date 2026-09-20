@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T02:55:21.290666+00:00",
-  "total_talks": 8,
+  "last_updated": "2026-09-20T03:07:47.722499+00:00",
+  "total_talks": 7,
   "talks": [
     {
       "title": "Research Mixer Salon #15",
@@ -50,18 +50,6 @@
         "Interdisciplinary/Computational Social Science"
       ],
       "link": "https://web.socsc.hku.hk/event/cmng/"
-    },
-    {
-      "title": "Coevolving Game-playing Strategies",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "September 16, 2026, 11:00am -12:30pm",
-      "speaker": "Prof Xin YAO",
-      "description": "Prof Xin YAO (Lingnan University (Hong Kong))",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://web.socsc.hku.hk/event/coevolving-game-playing-strategies/"
     },
     {
       "title": "Global South Seminar Series: The Future of Pacific Asia: In Search of a New Grand Bargain",
