@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-21T03:05:29.903619+00:00",
-  "total_talks": 7,
+  "last_updated": "2026-09-22T03:05:01.717737+00:00",
+  "total_talks": 6,
   "talks": [
     {
       "title": "Research Mixer Salon #15",
@@ -74,18 +74,6 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/oct-6-csslcuhk-webinar-skill-diversification-beyond-high-paying-jobs/"
-    },
-    {
-      "title": "(CANCELLED) [CSSL@CUHK Webinar] Small Language Models for Sensitive and Large-Scale Text Analysis: Lessons from 1.3 Million Child Welfare Narratives",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "18 September 2026 (Friday), 1500 - 16:30 pm",
-      "speaker": "Prof. Brian Perron",
-      "description": "Professor of Social Work and Co-Director of the Child and Adolescent Data Lab, University of Michigan",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://www.soc.cuhk.edu.hk/event/sep-18-csslcuhk-webinar-small-language-models-for-sensitive-and-large-scale-text-analysis-lessons-from-1-3-million-child-welfare-narratives/"
     }
   ]
 }
