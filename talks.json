@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-09-24T02:56:27.479067+00:00",
+  "last_updated": "2026-09-25T03:14:49.519214+00:00",
   "total_talks": 7,
   "talks": [
+    {
+      "title": "The Dialogue Series: Lunch and Learn",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 8, 2026, 12:45pm - 2:00pm",
+      "speaker": "Ms Celia Leung; Mr Wilson Tai",
+      "description": "Ms Celia Leung (Manager, Strategic Analytics & Insights, APAC Delivery, NielsenIQ); Mr Wilson Tai (• COO, FundFluent, • Ex-Lead of Credit and Decision Model, HSBC)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn/"
+    },
     {
       "title": "Research Mixer Salon #15",
       "institution": "HKU",
@@ -38,18 +50,6 @@
         "General Social Science"
       ],
       "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
-    },
-    {
-      "title": "Can Machines Negotiate a Government? LLM Agents, Coalition Formation, and  the Validity Problem in Computational Social Science",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "September 21, 2026, 11:00 am - 12:15 pm",
-      "speaker": "Professor Slava Jankin",
-      "description": "Professor Slava Jankin (Professor and Chair in Data Science and Government, School of Government & School of Computer Science, University of Birmingham)",
-      "disciplines": [
-        "Interdisciplinary/Computational Social Science"
-      ],
-      "link": "https://web.socsc.hku.hk/event/cmng/"
     },
     {
       "title": "Global South Seminar Series: The Future of Pacific Asia: In Search of a New Grand Bargain",
