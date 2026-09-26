@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-25T03:14:49.519214+00:00",
-  "total_talks": 7,
+  "last_updated": "2026-09-26T03:15:16.276660+00:00",
+  "total_talks": 5,
   "talks": [
     {
       "title": "The Dialogue Series: Lunch and Learn",
@@ -62,30 +62,6 @@
         "Political Science & Public Admin"
       ],
       "link": "https://web.socsc.hku.hk/event/gs-tfpa/"
-    },
-    {
-      "title": "SOCIOLOGY@CUHK Webinar Series: “Is the Gender Revolution Really Stalled? Social Change in Occupational Segregation in the United States” by Prof. Kim WEEDEN, Cornell University",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "07 October 2026 (Wednesday), 0930 - 11:00 am",
-      "speaker": "Prof. Kim WEEDEN",
-      "description": "Jan Rock Zubrow ’77 Professor of the Social Sciences, Professor of Sociology, Stephen H Weiss Presidential Fellow, Director, Center for the Study of Inequality, Cornell University",
-      "disciplines": [
-        "Sociology"
-      ],
-      "link": "https://www.soc.cuhk.edu.hk/event/oct-7-sociologycuhk-webinar-series-is-the-gender-revolution-really-stalled-social-change-in-occupational-segregation-in-the-united-states-by-prof-kim-weeden-cornell-university/"
-    },
-    {
-      "title": "[CSSL@CUHK Webinar] Skill Diversification Beyond High-Paying Jobs",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "06 October 2026 (Tuesday), 0930 - 11:00 am",
-      "speaker": "Prof. Siqi Han",
-      "description": "Assistant Professor, Department of Sociology, The Chinese University of Hong Kong",
-      "disciplines": [
-        "Sociology"
-      ],
-      "link": "https://www.soc.cuhk.edu.hk/event/oct-6-csslcuhk-webinar-skill-diversification-beyond-high-paying-jobs/"
     }
   ]
 }
