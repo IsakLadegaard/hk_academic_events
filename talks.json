@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-09-27T03:23:17.445535+00:00",
-  "total_talks": 6,
+  "last_updated": "2026-09-28T03:22:50.567418+00:00",
+  "total_talks": 7,
   "talks": [
+    {
+      "title": "Brown Bag Seminar Series: When AI Improves Performance, What Happens to Learning?",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 13, 2026, 12:00 nn - 13:30 pm",
+      "speaker": "Prof. GASEVIC, Dragan",
+      "description": "Prof. GASEVIC, Dragan (The University of Hong Kong)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/brown-bag-seminar-series-when-ai-improves-performance-what-happens-to-learning/"
+    },
     {
       "title": "The Dialogue Series: Lunch and Learn",
       "institution": "HKU",
