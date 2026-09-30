@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-29T03:59:35.296666+00:00",
-  "total_talks": 6,
+  "last_updated": "2026-09-30T03:45:56.354342+00:00",
+  "total_talks": 8,
   "talks": [
     {
       "title": "Brown Bag Seminar Series: When AI Improves Performance, What Happens to Learning?",
@@ -73,6 +73,30 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/oct-6-csslcuhk-webinar-skill-diversification-beyond-high-paying-jobs/"
+    },
+    {
+      "title": "Seminar - Irrational Investors",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "5 October 2026",
+      "speaker": "",
+      "description": "Venue: Room 3301 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-irrational-investors"
+    },
+    {
+      "title": "CityUHK Undergraduate Info Day 2026",
+      "institution": "CityU",
+      "department": "Department of Social and Behavioural Sciences",
+      "date": "3 October 2026",
+      "speaker": "",
+      "description": "",
+      "disciplines": [
+        "Geography & Urban Planning"
+      ],
+      "link": "https://ssweb.cityu.edu.hk/en/news-events/upcoming-events/admission-events/cityuhk-undergraduate-info-day-2026"
     }
   ]
 }
