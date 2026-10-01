@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-30T03:45:56.354342+00:00",
-  "total_talks": 8,
+  "last_updated": "2026-10-01T03:52:41.678273+00:00",
+  "total_talks": 10,
   "talks": [
     {
       "title": "Brown Bag Seminar Series: When AI Improves Performance, What Happens to Learning?",
@@ -51,6 +51,18 @@
       "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
     },
     {
+      "title": "Book Launch – “Queer Resistance: Contesting State, Family and Inequality in Post-Socialist China,” authored by Prof. Susanne Y.P. Choi",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "09 October 2026 (Friday), 1600 - 17:30 pm",
+      "speaker": "Prof. Susanne Choi (Co-Director of Gender Research Centre; Professor of the Department of Sociology",
+      "description": "The Chinese University of Hong Kong)",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/oct-9-book-launch-queer-resistance-contesting-state-family-and-inequality-in-post-socialist-china-authored-by-prof-susanne-y-p-choi/"
+    },
+    {
       "title": "SOCIOLOGY@CUHK Webinar Series: “Is the Gender Revolution Really Stalled? Social Change in Occupational Segregation in the United States” by Prof. Kim WEEDEN, Cornell University",
       "institution": "CUHK",
       "department": "Department of Sociology",
@@ -73,6 +85,18 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/oct-6-csslcuhk-webinar-skill-diversification-beyond-high-paying-jobs/"
+    },
+    {
+      "title": "Seminar - From Easy to Hard Redistribution: Adaptation of China’s Welfare State in the 21st Century",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "20 October 2026",
+      "speaker": "",
+      "description": "Venue: Room 5620 (Lifts 31-32), Academic Building, HKUST",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-easy-hard-redistribution-adaptation-chinas-welfare-state-21st-century"
     },
     {
       "title": "Seminar - Irrational Investors",
