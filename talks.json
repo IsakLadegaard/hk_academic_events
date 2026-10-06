@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-10-05T03:47:09.594700+00:00",
-  "total_talks": 6,
+  "last_updated": "2026-10-06T04:38:45.244884+00:00",
+  "total_talks": 12,
   "talks": [
+    {
+      "title": "HKU Information Day 2026",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 24, 2026, 9:00am – 6:00pm",
+      "speaker": "",
+      "description": "Venue: CPD-LG.08-09, LG/F, Lee Shau Kee Lecture Centre and Foyer, Centennial Campus",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/hku-information-day-2026/"
+    },
+    {
+      "title": "HKU Research Hub of Population Studies Seminar Series:  Growing Up in a Migrating China: Family Mobility and Children’s Developmental Outcomes",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 27, 2026, 10:30 - 11:45 am",
+      "speaker": "Professor Lidan Lyu; Ms Wanying Ling",
+      "description": "Professor Lidan Lyu (Associate Professor at the School of Population and Health, Renmin Unviersity of China); Ms Wanying Ling (PhD Candidate, Department of Sociology, Representative of RPg Students' Network, Research Hub of Population Studies, Faculty of Social Sciences, The University of Hong Kong)",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://web.socsc.hku.hk/event/hku-research-hub-of-population-studies-seminar-series-growing-up-in-a-migrating-china-family-mobility-and-childrens-developmental-outcomes/"
+    },
+    {
+      "title": "Brown Bag Seminar Series: When AI Improves Performance, What Happens to Learning?",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 13, 2026, 12:00 nn - 13:30 pm",
+      "speaker": "Prof. GASEVIC, Dragan",
+      "description": "Prof. GASEVIC, Dragan (The University of Hong Kong)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/brown-bag-seminar-series-when-ai-improves-performance-what-happens-to-learning/"
+    },
+    {
+      "title": "The Dialogue Series: Lunch and Learn",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 8, 2026, 12:45pm - 2:00pm",
+      "speaker": "Ms Celia Leung; Mr Wilson Tai",
+      "description": "Ms Celia Leung (Manager, Strategic Analytics & Insights, APAC Delivery, NielsenIQ); Mr Wilson Tai (• COO, FundFluent, • Ex-Lead of Credit and Decision Model, HSBC)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn/"
+    },
+    {
+      "title": "HKU RHPS Seminar Series: From Homes to Systems: Re-engineering Environments for Caregiving, Aging, and Equity",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 10, 2026, 2:30 - 3:30 pm",
+      "speaker": "Professor; Dr Anthan Xuhong Li",
+      "description": "Professor (Nathan Boucher, Associate Research Professor, Sanford School of Public Policy, Associate Professor, Medicine (Geriatrics & Palliative Care), Nursing, and Population Health Sciences, Duke University); Dr Anthan Xuhong Li (Post-doctoral Fellow, Sau Po Centre on Ageing, The University of Hong Kong)",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://web.socsc.hku.hk/event/rhps-reca/"
+    },
+    {
+      "title": "Academic Writing Workshops for “A” Grade Papers",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 12, 2026  - October 16, 2026, 10:00am - 12:00nn / 6:30 pm - 8:30pm",
+      "speaker": "",
+      "description": "Venue: The Jockey Club Tower, Centennial Campus, HKU",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
+    },
     {
       "title": "Book Launch – “Queer Resistance: Contesting State, Family and Inequality in Post-Socialist China,” authored by Prof. Susanne Y.P. Choi",
       "institution": "CUHK",
