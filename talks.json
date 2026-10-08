@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-10-07T04:04:13.758345+00:00",
-  "total_talks": 11,
+  "last_updated": "2026-10-08T04:16:56.104675+00:00",
+  "total_talks": 13,
   "talks": [
+    {
+      "title": "HKU Research Hub of Population Studies Seminar Series: Increasing the Resilience to the Health Impacts of Extreme Weather on Elderly People Under Future Climate Change – A Case Study from Hong Kong",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 20, 2026, 2:30 - 3:30 pm",
+      "speaker": "Professor Chao Ren; Professor Ethan Cheung",
+      "description": "Professor Chao Ren (Professor, Faculty of Architecture, The University of Hong Kong); Professor Ethan Cheung (Assistant Professor, Department of Social Work and Social Administration, Fellow, Sau Po Centre on Ageing, The University of Hong Kong)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/rhps-irhi/"
+    },
     {
       "title": "HKU Information Day 2026",
       "institution": "HKU",
@@ -133,6 +145,18 @@
         "General Social Science"
       ],
       "link": "https://sosc.hkust.edu.hk/events/seminar-irrational-investors"
+    },
+    {
+      "title": "SS PhD Application Online Information Session for 2027 entry",
+      "institution": "CityU",
+      "department": "Department of Social and Behavioural Sciences",
+      "date": "20 October 2026",
+      "speaker": "",
+      "description": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://ssweb.cityu.edu.hk/en/news-events/upcoming-events/admission-events/ss-phd-application-online-information-session-for-2027-entry"
     }
   ]
 }
