@@ -1,7 +1,31 @@
 {
-  "last_updated": "2026-10-08T04:16:56.104675+00:00",
-  "total_talks": 13,
+  "last_updated": "2026-10-09T04:23:03.871887+00:00",
+  "total_talks": 15,
   "talks": [
+    {
+      "title": "[Teaching Mixer Salon] Challenges and inspirations in teaching with AI",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 26, 2026, 11:00am - 12:00nn",
+      "speaker": "Dr Daniel Marwecki; Dr Michael Rivera; Professor Samson Tse",
+      "description": "Dr Daniel Marwecki (Lecturer, Department of Politics & Public Administration); Dr Michael Rivera (Lecturer, Faculty of Social Sciences); Professor Samson Tse (Associate Dean (Undergraduate Education))",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://web.socsc.hku.hk/event/teaching-mixer-salon-2/"
+    },
+    {
+      "title": "FOSS Alumni Get-Together: Pickleball Meet & Connect",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 17, 2026 (Saturday), 2:00 – 4:00pm",
+      "speaker": "",
+      "description": "Venue: Yama Pickleball Arena 9/F, Landmark South Yip Kan Street, Wong Chuk Hang",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/alumni-get-together-pickleball-meet-connect/"
+    },
     {
       "title": "HKU Research Hub of Population Studies Seminar Series: Increasing the Resilience to the Health Impacts of Extreme Weather on Elderly People Under Future Climate Change – A Case Study from Hong Kong",
       "institution": "HKU",
@@ -87,6 +111,18 @@
       "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
     },
     {
+      "title": "[CSSL@CUHK Webinar] A Generalized Conway–Maxwell–Poisson Model for Handling Inflation, Truncation, and Dispersion",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "06 November 2026 (Friday), 0930 - 11:00 am",
+      "speaker": "Prof. Tianji CAI (Professor",
+      "description": "Department of Sociology, University of Macau)",
+      "disciplines": [
+        "Sociology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
+    },
+    {
       "title": "Book Launch – “Queer Resistance: Contesting State, Family and Inequality in Post-Socialist China,” authored by Prof. Susanne Y.P. Choi",
       "institution": "CUHK",
       "department": "Department of Sociology",
@@ -133,18 +169,6 @@
         "General Social Science"
       ],
       "link": "https://sosc.hkust.edu.hk/events/seminar-easy-hard-redistribution-adaptation-chinas-welfare-state-21st-century"
-    },
-    {
-      "title": "Seminar - Irrational Investors",
-      "institution": "HKUST",
-      "department": "Division of Social Science",
-      "date": "5 October 2026",
-      "speaker": "",
-      "description": "Venue: Room 3301 (Lift 2 or Lifts 17-18), 3/F Academic Building",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://sosc.hkust.edu.hk/events/seminar-irrational-investors"
     },
     {
       "title": "SS PhD Application Online Information Session for 2027 entry",
