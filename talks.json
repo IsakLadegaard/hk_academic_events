@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-10-12T04:06:32.288343+00:00",
-  "total_talks": 12,
+  "last_updated": "2026-10-13T05:15:24.561744+00:00",
+  "total_talks": 15,
   "talks": [
+    {
+      "title": "The Dialogue Series: Lunch and Learn – The Power of the Narrative",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 13, 2026, 12:45pm - 2:00pm",
+      "speaker": "Ms Emily Lau; Ms Jenny Wong",
+      "description": "Ms Emily Lau (Account Manager, BBDO Hong Kong); Ms Jenny Wong (Founder, DesignBff /, Senior Digital Account Manager, TransPerfect)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn-the-power-of-the-narrative/"
+    },
     {
       "title": "[Teaching Mixer Salon] Challenges and inspirations in teaching with AI",
       "institution": "HKU",
@@ -99,6 +111,30 @@
       "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
     },
     {
+      "title": "Webinar “Behavioural Demography: Diagnosing and Changing the Behaviours Behind Low Fertility” by Prof. Jarosław PRZEPERSKI, Nicolaus Copernicus University",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "30 October 2026 (Friday), 1600 - 17:30 pm",
+      "speaker": "Prof. Jarosław Przeperski",
+      "description": "Associate Professor, Faculty of Philosophy and Social Sciences, Nicolaus Copernicus University, Toruń, Poland",
+      "disciplines": [
+        "Psychology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/oct-30-webinar-behavioural-demography-diagnosing-and-changing-the-behaviours-behind-low-fertility-by-prof-jaroslaw-przeperski-nicolaus-copernicus-university/"
+    },
+    {
+      "title": "CUHK INFORMATION DAY 2026",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "17 October 2026 (Saturday)",
+      "speaker": "",
+      "description": "",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/cuhk-information-day-2026/"
+    },
+    {
       "title": "[CSSL@CUHK Webinar] A Generalized Conway–Maxwell–Poisson Model for Handling Inflation, Truncation, and Dispersion",
       "institution": "CUHK",
       "department": "Department of Sociology",
@@ -109,18 +145,6 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
-    },
-    {
-      "title": "Book Launch – “Queer Resistance: Contesting State, Family and Inequality in Post-Socialist China,” authored by Prof. Susanne Y.P. Choi",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "09 October 2026 (Friday), 1600 - 17:30 pm",
-      "speaker": "Prof. Susanne Choi (Co-Director of Gender Research Centre; Professor of the Department of Sociology",
-      "description": "The Chinese University of Hong Kong)",
-      "disciplines": [
-        "Sociology"
-      ],
-      "link": "https://www.soc.cuhk.edu.hk/event/oct-9-book-launch-queer-resistance-contesting-state-family-and-inequality-in-post-socialist-china-authored-by-prof-susanne-y-p-choi/"
     },
     {
       "title": "Seminar - From Easy to Hard Redistribution: Adaptation of China’s Welfare State in the 21st Century",
@@ -145,6 +169,18 @@
         "General Social Science"
       ],
       "link": "https://ssweb.cityu.edu.hk/en/news-events/upcoming-events/admission-events/ss-phd-application-online-information-session-for-2027-entry"
+    },
+    {
+      "title": "Afternoon Lecture: “Fit to Work” as a Barrier to Reproductive Justice: Labour and Student Migration from Southeast and South Asia to Japan",
+      "institution": "EdUHK",
+      "department": "Department of Social Sciences and Policy Studies",
+      "date": "3 November 2026, 15:30 -17:00",
+      "speaker": "",
+      "description": "Venue: D2-LP-03",
+      "disciplines": [
+        "Economics"
+      ],
+      "link": "https://www.eduhk.hk/ssps/news-events/events/afternoon-lecture-%E2%80%9Cfit-work%E2%80%9D-barrier-reproductive-justice-labour-and-student"
     }
   ]
 }
