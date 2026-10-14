@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-13T05:15:24.561744+00:00",
-  "total_talks": 15,
+  "last_updated": "2026-10-14T03:22:33.521890+00:00",
+  "total_talks": 16,
   "talks": [
     {
       "title": "The Dialogue Series: Lunch and Learn – The Power of the Narrative",
@@ -181,6 +181,18 @@
         "Economics"
       ],
       "link": "https://www.eduhk.hk/ssps/news-events/events/afternoon-lecture-%E2%80%9Cfit-work%E2%80%9D-barrier-reproductive-justice-labour-and-student"
+    },
+    {
+      "title": "SSPS Departmental Research Seminar: Exploring spatial justice and satisfaction with dog parks in the metropolitan area: The case of Shenzhen",
+      "institution": "EdUHK",
+      "department": "Department of Social Sciences and Policy Studies",
+      "date": "30 October 2026, 15:30 -17:00",
+      "speaker": "",
+      "description": "Venue: D3-LP-13, Tai Po Campus",
+      "disciplines": [
+        "Geography & Urban Planning"
+      ],
+      "link": "https://www.eduhk.hk/ssps/news-events/events/ssps-departmental-research-seminar-exploring-spatial-justice-and-satisfaction"
     }
   ]
 }
