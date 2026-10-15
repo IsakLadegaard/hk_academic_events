@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-10-14T03:22:33.521890+00:00",
-  "total_talks": 16,
+  "last_updated": "2026-10-15T03:00:52.555187+00:00",
+  "total_talks": 17,
   "talks": [
+    {
+      "title": "FOSS Alumni Get-Together: TGIF Networking Drinks",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 23, 2026 (Friday), 6:30 – 9:30pm",
+      "speaker": "",
+      "description": "Venue: HKUAA Lounge Room 101, Yip Fung Building 2 D'Aguilar Street, Central",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/foss-alumni-get-together-tgif-networking-drinks/"
+    },
     {
       "title": "The Dialogue Series: Lunch and Learn – The Power of the Narrative",
       "institution": "HKU",
