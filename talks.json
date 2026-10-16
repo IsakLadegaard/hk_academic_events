@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-15T03:00:52.555187+00:00",
-  "total_talks": 17,
+  "last_updated": "2026-10-16T02:58:07.104643+00:00",
+  "total_talks": 18,
   "talks": [
     {
       "title": "FOSS Alumni Get-Together: TGIF Networking Drinks",
@@ -157,6 +157,18 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
+    },
+    {
+      "title": "Seminar - The “Fat-Face” Illusion: How Spatial Context Shapes Face Perception",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "23 October 2026",
+      "speaker": "",
+      "description": "Venue: Room 3301 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "Geography & Urban Planning"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-fat-face-illusion-how-spatial-context-shapes-face-perception"
     },
     {
       "title": "Seminar - From Easy to Hard Redistribution: Adaptation of China’s Welfare State in the 21st Century",
