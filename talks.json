@@ -1,7 +1,20 @@
 {
-  "last_updated": "2026-10-16T02:58:07.104643+00:00",
+  "last_updated": "2026-10-17T02:48:09.419725+00:00",
   "total_talks": 18,
   "talks": [
+    {
+      "title": "Research Mixer Salon #16",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "October 29, 2026, 3:00pm - 4:00pm",
+      "speaker": "Professor Tom McDonald; Professor Peiyi Lu; Professor Jian-Qiao Zhu; Professor Guy Abel",
+      "description": "Professor Tom McDonald (Associate Professor,, Department of Sociology); Professor Peiyi Lu (Assistant Professor,, Department of Social Work & Social Administration); Professor Jian-Qiao Zhu (Assistant Professor,, Department of Psychology); Professor Guy Abel (Professor, Department of Sociology; Member, Faculty Research Advisory Panel)",
+      "disciplines": [
+        "Sociology",
+        "Psychology"
+      ],
+      "link": "https://web.socsc.hku.hk/event/research-mixer-salon-16/"
+    },
     {
       "title": "FOSS Alumni Get-Together: TGIF Networking Drinks",
       "institution": "HKU",
@@ -85,18 +98,6 @@
         "Sociology"
       ],
       "link": "https://web.socsc.hku.hk/event/rhps-gumc/"
-    },
-    {
-      "title": "Brown Bag Seminar Series: When AI Improves Performance, What Happens to Learning?",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "October 13, 2026, 12:00 nn - 13:30 pm",
-      "speaker": "Prof. GASEVIC, Dragan",
-      "description": "Prof. GASEVIC, Dragan (The University of Hong Kong)",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://web.socsc.hku.hk/event/brown-bag-seminar-series-when-ai-improves-performance-what-happens-to-learning/"
     },
     {
       "title": "HKU RHPS Seminar Series: From Homes to Systems: Re-engineering Environments for Caregiving, Aging, and Equity",
