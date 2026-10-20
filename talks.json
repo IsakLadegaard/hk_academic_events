@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-10-19T03:02:43.596476+00:00",
+  "last_updated": "2026-10-20T03:13:47.121481+00:00",
   "total_talks": 18,
   "talks": [
+    {
+      "title": "Experiential Learning 1001: How to fulfil Social Innovation and Global Citizenship requirements?",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 4, 2026, 7:00 – 9:00pm",
+      "speaker": "",
+      "description": "Venue: Social Sciences Function Room, 11/F, The Jockey Club Tower, Centennial Campus, HKU",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/experiential-learning-1001-how-to-fulfil-social-innovation-and-global-citizenship-requirements-copy/"
+    },
     {
       "title": "Research Mixer Salon #16",
       "institution": "HKU",
@@ -110,18 +122,6 @@
         "Political Science & Public Admin"
       ],
       "link": "https://web.socsc.hku.hk/event/rhps-reca/"
-    },
-    {
-      "title": "Academic Writing Workshops for “A” Grade Papers",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "October 12, 2026  - October 16, 2026, 10:00am - 12:00nn / 6:30 pm - 8:30pm",
-      "speaker": "",
-      "description": "Venue: The Jockey Club Tower, Centennial Campus, HKU",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://web.socsc.hku.hk/event/academic-writing-workshops-for-a-grade-papers-2/"
     },
     {
       "title": "Webinar “Behavioural Demography: Diagnosing and Changing the Behaviours Behind Low Fertility” by Prof. Jarosław PRZEPERSKI, Nicolaus Copernicus University",
