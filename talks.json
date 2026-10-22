@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-21T03:07:40.875297+00:00",
-  "total_talks": 17,
+  "last_updated": "2026-10-22T03:05:47.328437+00:00",
+  "total_talks": 19,
   "talks": [
     {
       "title": "Experiential Learning 1001: How to fulfil Social Innovation and Global Citizenship requirements?",
@@ -112,6 +112,18 @@
       "link": "https://web.socsc.hku.hk/event/rhps-reca/"
     },
     {
+      "title": "Seminar “The Less Agreeable Side of Charisma: Incredulous Onlooking and Anti-structural Power” by Prof. Paul JOOSSE, The University of Hong Kong",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "06 November 2026 (Friday), 1130 - 13:00 pm",
+      "speaker": "Prof. Paul JOOSSE",
+      "description": "Associate Professor, The University of Hong Kong",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/nov-6-seminar-the-less-agreeable-side-of-charisma-incredulous-onlooking-and-anti-structural-power-by-prof-paul-joosse-the-university-of-hong-kong/"
+    },
+    {
       "title": "Webinar “Behavioural Demography: Diagnosing and Changing the Behaviours Behind Low Fertility” by Prof. Jarosław PRZEPERSKI, Nicolaus Copernicus University",
       "institution": "CUHK",
       "department": "Department of Sociology",
@@ -170,6 +182,18 @@
         "General Social Science"
       ],
       "link": "https://ssweb.cityu.edu.hk/en/news-events/upcoming-events/admission-events/ss-phd-application-online-information-session-for-2027-entry"
+    },
+    {
+      "title": "Roundtable Dialogue: Belt and Road Leadership: Empowering Youth for Global Connectivity",
+      "institution": "EdUHK",
+      "department": "Department of Social Sciences and Policy Studies",
+      "date": "25 November 2026, 14:00-16:00",
+      "speaker": "",
+      "description": "Venue: MP-16/F-02A+02B EdUHK West Kowloon Study Centre (Museum Drive)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://www.eduhk.hk/ssps/news-events/events/roundtable-dialogue-belt-and-road-leadership-empowering-youth-global"
     },
     {
       "title": "Afternoon Lecture: “Fit to Work” as a Barrier to Reproductive Justice: Labour and Student Migration from Southeast and South Asia to Japan",
