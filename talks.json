@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T04:07:49.547222+00:00",
-  "total_talks": 14,
+  "last_updated": "2026-10-30T04:11:13.176314+00:00",
+  "total_talks": 11,
   "talks": [
     {
       "title": "Experiential Learning 1001: How to fulfil Social Innovation and Global Citizenship requirements?",
@@ -38,18 +38,6 @@
         "General Social Science"
       ],
       "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn-the-power-of-the-narrative/"
-    },
-    {
-      "title": "[Teaching Mixer Salon] Challenges and inspirations in teaching with AI",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "October 26, 2026, 11:00am - 12:00nn",
-      "speaker": "Dr Daniel Marwecki; Dr Michael Rivera; Professor Samson Tse",
-      "description": "Dr Daniel Marwecki (Lecturer, Department of Politics & Public Administration); Dr Michael Rivera (Lecturer, Faculty of Social Sciences); Professor Samson Tse (Associate Dean (Undergraduate Education))",
-      "disciplines": [
-        "Political Science & Public Admin"
-      ],
-      "link": "https://web.socsc.hku.hk/event/teaching-mixer-salon-2/"
     },
     {
       "title": "HKU Research Hub of Population Studies Seminar Series:  Growing Up in a Migrating China: Family Mobility and Children’s Developmental Outcomes",
@@ -112,18 +100,6 @@
       "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
     },
     {
-      "title": "Seminar - Episodic Disembedding: Parachute Lawyers and Local Justice in China",
-      "institution": "HKUST",
-      "department": "Division of Social Science",
-      "date": "2 November 2026",
-      "speaker": "",
-      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://sosc.hkust.edu.hk/events/seminar-episodic-disembedding-parachute-lawyers-and-local-justice-china"
-    },
-    {
       "title": "Roundtable Dialogue: Belt and Road Leadership: Empowering Youth for Global Connectivity",
       "institution": "EdUHK",
       "department": "Department of Social Sciences and Policy Studies",
@@ -158,18 +134,6 @@
         "Geography & Urban Planning"
       ],
       "link": "https://www.eduhk.hk/ssps/news-events/events/ssps-departmental-research-seminar-exploring-spatial-justice-and-satisfaction"
-    },
-    {
-      "title": "Departmental Research Seminar:  Organizing Suspended: The Dark Side of Hybrid Work in Organizations",
-      "institution": "EdUHK",
-      "department": "Department of Social Sciences and Policy Studies",
-      "date": "26 October 2026, 15:00–16:00",
-      "speaker": "",
-      "description": "Venue: D3-LP-05, EdUHK Tai Po Campus",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://www.eduhk.hk/ssps/news-events/events/departmental-research-seminar-organizing-suspended-dark-side-hybrid-work"
     }
   ]
 }
