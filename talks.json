@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T04:11:13.176314+00:00",
+  "last_updated": "2026-10-31T03:53:07.598386+00:00",
   "total_talks": 11,
   "talks": [
     {
@@ -38,18 +38,6 @@
         "General Social Science"
       ],
       "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn-the-power-of-the-narrative/"
-    },
-    {
-      "title": "HKU Research Hub of Population Studies Seminar Series:  Growing Up in a Migrating China: Family Mobility and Children’s Developmental Outcomes",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "October 27, 2026, 10:30 - 11:45 am",
-      "speaker": "Professor Lidan Lyu; Ms Wanying Ling",
-      "description": "Professor Lidan Lyu (Associate Professor at the School of Population and Health, Renmin University of China); Ms Wanying Ling (PhD Candidate, Department of Sociology, Representative of RPg Students' Network, Research Hub of Population Studies, Faculty of Social Sciences, The University of Hong Kong)",
-      "disciplines": [
-        "Sociology"
-      ],
-      "link": "https://web.socsc.hku.hk/event/rhps-gumc/"
     },
     {
       "title": "HKU RHPS Seminar Series: From Homes to Systems: Re-engineering Environments for Caregiving, Aging, and Equity",
@@ -98,6 +86,18 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
+    },
+    {
+      "title": "Seminar - Episodic Disembedding: Parachute Lawyers and Local Justice in China",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "2 November 2026",
+      "speaker": "",
+      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-episodic-disembedding-parachute-lawyers-and-local-justice-china"
     },
     {
       "title": "Roundtable Dialogue: Belt and Road Leadership: Empowering Youth for Global Connectivity",
