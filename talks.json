@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T04:08:02.044063+00:00",
-  "total_talks": 10,
+  "last_updated": "2026-11-03T05:08:20.345025+00:00",
+  "total_talks": 8,
   "talks": [
     {
       "title": "Experiential Learning 1001: How to fulfil Social Innovation and Global Citizenship requirements?",
@@ -51,18 +51,6 @@
       "link": "https://www.soc.cuhk.edu.hk/event/nov-6-seminar-the-less-agreeable-side-of-charisma-incredulous-onlooking-and-anti-structural-power-by-prof-paul-joosse-the-university-of-hong-kong/"
     },
     {
-      "title": "Webinar “Behavioural Demography: Diagnosing and Changing the Behaviours Behind Low Fertility” by Prof. Jarosław PRZEPERSKI, Nicolaus Copernicus University",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "30 October 2026 (Friday), 1600 - 17:30 pm",
-      "speaker": "Prof. Jarosław Przeperski",
-      "description": "Associate Professor, Faculty of Philosophy and Social Sciences, Nicolaus Copernicus University, Toruń, Poland",
-      "disciplines": [
-        "Psychology"
-      ],
-      "link": "https://www.soc.cuhk.edu.hk/event/oct-30-webinar-behavioural-demography-diagnosing-and-changing-the-behaviours-behind-low-fertility-by-prof-jaroslaw-przeperski-nicolaus-copernicus-university/"
-    },
-    {
       "title": "[CSSL@CUHK Webinar] A Generalized Conway–Maxwell–Poisson Model for Handling Inflation, Truncation, and Dispersion",
       "institution": "CUHK",
       "department": "Department of Sociology",
@@ -109,18 +97,6 @@
         "Economics"
       ],
       "link": "https://www.eduhk.hk/ssps/news-events/events/afternoon-lecture-%E2%80%9Cfit-work%E2%80%9D-barrier-reproductive-justice-labour-and-student"
-    },
-    {
-      "title": "SSPS Departmental Research Seminar: Exploring spatial justice and satisfaction with dog parks in the metropolitan area: The case of Shenzhen",
-      "institution": "EdUHK",
-      "department": "Department of Social Sciences and Policy Studies",
-      "date": "30 October 2026, 15:30 -17:00",
-      "speaker": "",
-      "description": "Venue: D3-LP-13, Tai Po Campus",
-      "disciplines": [
-        "Geography & Urban Planning"
-      ],
-      "link": "https://www.eduhk.hk/ssps/news-events/events/ssps-departmental-research-seminar-exploring-spatial-justice-and-satisfaction"
     }
   ]
 }
