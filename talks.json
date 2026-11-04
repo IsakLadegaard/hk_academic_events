@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-03T05:08:20.345025+00:00",
-  "total_talks": 8,
+  "last_updated": "2026-11-04T04:40:09.500196+00:00",
+  "total_talks": 9,
   "talks": [
     {
       "title": "Experiential Learning 1001: How to fulfil Social Innovation and Global Citizenship requirements?",
@@ -61,6 +61,18 @@
         "Sociology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
+    },
+    {
+      "title": "Seminar - Origins of Concepts: What Infants and Preschoolers Can Tell Us About Cognition",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "16 November 2026",
+      "speaker": "",
+      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "Psychology"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-origins-concepts-what-infants-and-preschoolers-can-tell-us-about-cognition"
     },
     {
       "title": "Seminar - Episodic Disembedding: Parachute Lawyers and Local Justice in China",
