@@ -1,7 +1,31 @@
 {
-  "last_updated": "2026-11-05T04:55:45.763401+00:00",
-  "total_talks": 9,
+  "last_updated": "2026-11-06T04:56:56.881971+00:00",
+  "total_talks": 10,
   "talks": [
+    {
+      "title": "Stimulation and manipulation in the Digital Twin Brain of a functional brain network underlying mental illness",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 11, 2026, 11:00am - 12:00nn",
+      "speaker": "Prof. Gunter Schumann",
+      "description": "Prof. Gunter Schumann (Fudan University and Department of Psychiatry and Neuroscience, Charity University Medicine, Berlin)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/stimulation-and-manipulation-in-the-digital-twin-brain-of-a-functional-brain-network-underlying-mental-illness/"
+    },
+    {
+      "title": "Knowledge Exchange Seminar Series: The AI and Suicide Prevention – Challenges and Opportunities",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 26, 2026, 6:30 – 7:30pm",
+      "speaker": "Professor Paul S. F. Yip",
+      "description": "Professor Paul S. F. Yip (Professor, Chair of Population Health, HKJC Centre for Suicide Research and Prevention, The University of Hong Kong)",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/ke-aspco/"
+    },
     {
       "title": "Experiential Learning 1001: How to fulfil Social Innovation and Global Citizenship requirements?",
       "institution": "HKU",
@@ -73,18 +97,6 @@
         "Psychology"
       ],
       "link": "https://sosc.hkust.edu.hk/events/seminar-origins-concepts-what-infants-and-preschoolers-can-tell-us-about-cognition"
-    },
-    {
-      "title": "Seminar - Episodic Disembedding: Parachute Lawyers and Local Justice in China",
-      "institution": "HKUST",
-      "department": "Division of Social Science",
-      "date": "2 November 2026",
-      "speaker": "",
-      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://sosc.hkust.edu.hk/events/seminar-episodic-disembedding-parachute-lawyers-and-local-justice-china"
     },
     {
       "title": "Roundtable Dialogue: Belt and Road Leadership: Empowering Youth for Global Connectivity",
