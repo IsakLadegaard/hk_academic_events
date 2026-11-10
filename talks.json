@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-09T04:25:04.377521+00:00",
-  "total_talks": 8,
+  "last_updated": "2026-11-10T05:49:19.088829+00:00",
+  "total_talks": 7,
   "talks": [
     {
       "title": "Stimulation and manipulation in the Digital Twin Brain of a functional brain network underlying mental illness",
@@ -51,28 +51,16 @@
       "link": "https://web.socsc.hku.hk/event/rhps-reca/"
     },
     {
-      "title": "SGSD Seminar “The Less Agreeable Side of Charisma: Incredulous Onlooking and Anti-structural Power” by Prof. Paul JOOSSE, The University of Hong Kong",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "06 November 2026 (Friday), 1130 - 13:00 pm",
-      "speaker": "Prof. Paul JOOSSE",
-      "description": "Associate Professor, The University of Hong Kong",
+      "title": "Seminar - From Office to Oversight: Career-Capped Elites and Legislative Capacity",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "25 November 2026",
+      "speaker": "",
+      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
       "disciplines": [
-        "General Social Science"
+        "Geography & Urban Planning"
       ],
-      "link": "https://www.soc.cuhk.edu.hk/event/nov-6-seminar-the-less-agreeable-side-of-charisma-incredulous-onlooking-and-anti-structural-power-by-prof-paul-joosse-the-university-of-hong-kong/"
-    },
-    {
-      "title": "[CSSL@CUHK Webinar] A Generalized Conway–Maxwell–Poisson Model for Handling Inflation, Truncation, and Dispersion",
-      "institution": "CUHK",
-      "department": "Department of Sociology",
-      "date": "06 November 2026 (Friday), 0930 - 11:00 am",
-      "speaker": "Prof. Tianji CAI (Professor",
-      "description": "Department of Sociology, University of Macau)",
-      "disciplines": [
-        "Sociology"
-      ],
-      "link": "https://www.soc.cuhk.edu.hk/event/nov-6-csslcuhk-webinar-a-generalized-conway-maxwell-poisson-model-for-handling-inflation-truncation-and-dispersion/"
+      "link": "https://sosc.hkust.edu.hk/events/seminar-office-oversight-career-capped-elites-and-legislative-capacity"
     },
     {
       "title": "Seminar - Origins of Concepts: What Infants and Preschoolers Can Tell Us About Cognition",
