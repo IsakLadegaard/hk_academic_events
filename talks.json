@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-11-11T04:28:52.895955+00:00",
-  "total_talks": 7,
+  "last_updated": "2026-11-12T05:35:36.930202+00:00",
+  "total_talks": 10,
   "talks": [
+    {
+      "title": "Studying Language, Cognition, and Education: Insights from AI and the Brain",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 18, 2026, 11:00 am - 12:00 nn",
+      "speaker": "Prof. Ping Li",
+      "description": "Prof. Ping Li (The Hong Kong University of Science and Technology)",
+      "disciplines": [
+        "Psychology"
+      ],
+      "link": "https://web.socsc.hku.hk/event/studying-language-cognition-and-education-insights-from-ai-and-the-brain/"
+    },
     {
       "title": "Stimulation and manipulation in the Digital Twin Brain of a functional brain network underlying mental illness",
       "institution": "HKU",
@@ -49,6 +61,32 @@
         "Political Science & Public Admin"
       ],
       "link": "https://web.socsc.hku.hk/event/rhps-reca/"
+    },
+    {
+      "title": "SOCIOLOGY@CUHK Seminar Series: “Embedded Differentiation: Generative AI Exposure and Occupational Structure in China” by Prof. Yuxiao WU, Nanjing University",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "27 November 2026 (Friday), 1000 - 11:30 am",
+      "speaker": "Prof. Yuxiao Wu",
+      "description": "Dean of School of Social and Behavioral Science, Professor of Sociology at Nanjing University",
+      "disciplines": [
+        "Sociology",
+        "Psychology"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/nov-27-sociologycuhk-seminar-series-embedded-differentiation-generative-ai-exposure-and-occupational-structure-in-china-by-prof-yuxiao-wu-nanjing-university/"
+    },
+    {
+      "title": "CCFS Seminar “Using Deepfakes to Uncover Hiring Biases: A Novel Experimental Approach” by Prof. Tobias Wolbring, Friedrich-Alexander University Erlangen-Nürnberg, Germany",
+      "institution": "CUHK",
+      "department": "Department of Sociology",
+      "date": "18 November 2026 (Wednesday), 0930 - 11:00 am",
+      "speaker": "Prof. Tobias Wolbring",
+      "description": "Professor and Chair of Empirical Economic Sociology, Friedrich-Alexander University Erlangen-Nürnberg, Germany",
+      "disciplines": [
+        "Sociology",
+        "Economics"
+      ],
+      "link": "https://www.soc.cuhk.edu.hk/event/nov-18-ccfs-seminar-using-deepfakes-to-uncover-hiring-biases-a-novel-experimental-approach-by-prof-tobias-wolbring-friedrich-alexander-university-erlangen-nurnberg-germany/"
     },
     {
       "title": "Seminar - From Office to Oversight: Career-Capped Elites and Legislative Capacity",
