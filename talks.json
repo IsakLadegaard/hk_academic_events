@@ -1,7 +1,20 @@
 {
-  "last_updated": "2026-11-12T05:35:36.930202+00:00",
-  "total_talks": 10,
+  "last_updated": "2026-11-13T04:53:00.540397+00:00",
+  "total_talks": 11,
   "talks": [
+    {
+      "title": "Research Mixer Salon #17",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 23, 2026, 11:00am - 12:00nn",
+      "speaker": "Professor Pan He; Professor Peng Zhu; Professor Melody Jia-Qi Xu; Professor Xiaoqing Hu",
+      "description": "Professor Pan He (Associate Professor,, Department of Geography); Professor Peng Zhu (Assistant Professor,, Department of Geography); Professor Melody Jia-Qi Xu (Assistant Professor,, Department of Psychology); Professor Xiaoqing Hu (Associate Professor, Department of Psychology; Member, Faculty Research Advisory Panel)",
+      "disciplines": [
+        "Psychology",
+        "Geography & Urban Planning"
+      ],
+      "link": "https://web.socsc.hku.hk/event/research-mixer-salon-17/"
+    },
     {
       "title": "Studying Language, Cognition, and Education: Insights from AI and the Brain",
       "institution": "HKU",
