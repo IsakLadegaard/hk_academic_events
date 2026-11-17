@@ -1,7 +1,31 @@
 {
-  "last_updated": "2026-11-16T04:32:06.212509+00:00",
-  "total_talks": 9,
+  "last_updated": "2026-11-17T06:19:56.163977+00:00",
+  "total_talks": 10,
   "talks": [
+    {
+      "title": "FOSS Alumni Reunion cum Christmas Celebration 2026",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "December 10, 2026 (Thursday), 7:00 – 9:30pm",
+      "speaker": "",
+      "description": "Venue: Pier 7 Café & Bar Upper Deck, Pier 7 (Star Ferry) Central",
+      "disciplines": [
+        "General Social Science"
+      ],
+      "link": "https://web.socsc.hku.hk/event/foss-alumni-reunion-cum-christmas-celebration-2026/"
+    },
+    {
+      "title": "HKU Research Hub of Population Studies Seminar Series: Urban Segregation: Going Beyond Residential Neighbourhoods",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 24, 2026, 2:30 - 3:45pm",
+      "speaker": "Professor Xiaowen Dong; Professor Xuejie Ding",
+      "description": "Professor Xiaowen Dong (Department of Engineering Science,, University of Oxford); Professor Xuejie Ding (Department of Social Work and Social Administration, The University of Hong Kong)",
+      "disciplines": [
+        "Geography & Urban Planning"
+      ],
+      "link": "https://web.socsc.hku.hk/event/hku-research-hub-of-population-studies-seminar-series-urban-segregation-going-beyond-residential-neighbourhoods/"
+    },
     {
       "title": "Research Mixer Salon #17",
       "institution": "HKU",
@@ -40,19 +64,7 @@
       "link": "https://web.socsc.hku.hk/event/ke-aspco/"
     },
     {
-      "title": "The Dialogue Series: Lunch and Learn – The Power of the Narrative",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "November 13, 2026, 12:45pm - 2:00pm",
-      "speaker": "Ms Emily Lau; Ms Jenny Wong",
-      "description": "Ms Emily Lau (Account Manager, BBDO Hong Kong); Ms Jenny Wong (Founder, DesignBff /, Senior Digital Account Manager, TransPerfect)",
-      "disciplines": [
-        "General Social Science"
-      ],
-      "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn-the-power-of-the-narrative/"
-    },
-    {
-      "title": "SOCIOLOGY@CUHK Seminar Series: “Embedded Differentiation: Generative AI Exposure and Occupational Structure in China” by Prof. Yuxiao WU, Nanjing University",
+      "title": "SGSD Seminar “Embedded Differentiation: Generative AI Exposure and Occupational Structure in China” by Prof. Yuxiao WU, Nanjing University",
       "institution": "CUHK",
       "department": "Department of Sociology",
       "date": "27 November 2026 (Friday), 1000 - 11:30 am",
@@ -62,7 +74,7 @@
         "Sociology",
         "Psychology"
       ],
-      "link": "https://www.soc.cuhk.edu.hk/event/nov-27-sociologycuhk-seminar-series-embedded-differentiation-generative-ai-exposure-and-occupational-structure-in-china-by-prof-yuxiao-wu-nanjing-university/"
+      "link": "https://www.soc.cuhk.edu.hk/event/nov-27-sgsd-seminar-embedded-differentiation-generative-ai-exposure-and-occupational-structure-in-china-by-prof-yuxiao-wu-nanjing-university/"
     },
     {
       "title": "CCFS Seminar “Using Deepfakes to Uncover Hiring Biases: A Novel Experimental Approach” by Prof. Tobias Wolbring, Friedrich-Alexander University Erlangen-Nürnberg, Germany",
