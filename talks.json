@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-17T06:19:56.163977+00:00",
-  "total_talks": 10,
+  "last_updated": "2026-11-18T05:46:23.173653+00:00",
+  "total_talks": 11,
   "talks": [
     {
       "title": "FOSS Alumni Reunion cum Christmas Celebration 2026",
@@ -88,6 +88,19 @@
         "Economics"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/nov-18-ccfs-seminar-using-deepfakes-to-uncover-hiring-biases-a-novel-experimental-approach-by-prof-tobias-wolbring-friedrich-alexander-university-erlangen-nurnberg-germany/"
+    },
+    {
+      "title": "Seminar - Two-Person Occupations and Gender Economic Inequality",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "30 November 2026",
+      "speaker": "",
+      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "Sociology",
+        "Economics"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/seminar-two-person-occupations-and-gender-economic-inequality"
     },
     {
       "title": "Seminar - From Office to Oversight: Career-Capped Elites and Legislative Capacity",
