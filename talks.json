@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-11-18T05:46:23.173653+00:00",
-  "total_talks": 11,
+  "last_updated": "2026-11-19T05:45:49.588245+00:00",
+  "total_talks": 12,
   "talks": [
+    {
+      "title": "The Dialogue Series: Lunch and Learn – Social Impact Careers",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "15 December, 2026, 12:45pm - 2:00pm",
+      "speaker": "Ms. Vivian Seo; Ms. Patricia Yuen",
+      "description": "Ms. Vivian Seo (Executive Director, Foundation for Shared Impact (FSI)); Ms. Patricia Yuen (Head of Communications and Development, Love 21 Foundation)",
+      "disciplines": [
+        "Media & Communication"
+      ],
+      "link": "https://web.socsc.hku.hk/event/the-dialogue-series-lunch-and-learn-social-impact-careers/"
+    },
     {
       "title": "FOSS Alumni Reunion cum Christmas Celebration 2026",
       "institution": "HKU",
@@ -24,7 +36,7 @@
       "disciplines": [
         "Geography & Urban Planning"
       ],
-      "link": "https://web.socsc.hku.hk/event/hku-research-hub-of-population-studies-seminar-series-urban-segregation-going-beyond-residential-neighbourhoods/"
+      "link": "https://web.socsc.hku.hk/event/rhps-gbrn/"
     },
     {
       "title": "Research Mixer Salon #17",
