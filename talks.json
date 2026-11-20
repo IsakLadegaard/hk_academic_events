@@ -1,7 +1,33 @@
 {
-  "last_updated": "2026-11-19T05:45:49.588245+00:00",
-  "total_talks": 12,
+  "last_updated": "2026-11-20T05:33:53.039431+00:00",
+  "total_talks": 13,
   "talks": [
+    {
+      "title": "Bridging Sociologies in East Asia and Beyond: Tri-University Conference on Family, Work, Culture, and Politics",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "December 4, 2026, 9:30 am - 6:00 pm",
+      "speaker": "Professor Tarani Chandola; Professor Eric Fong; Ms Yuyao Liu; Ms Gayoung Lee; Professor Kenji Ishida; Professor Guy Abel; Professor Kikuko Nagayoshi; Professor Satoshi Araki; Professor Hirofumi Taki; Dr Junhun Han; Dr Yuriko Morikawa; Professor Youbin Kang; Mr Junsoo Jeong; Professor Benjamin Rohr; Mr Yunseok Jeong; Professor Lai Wei; Profeesor Sho Fujihara; Mr Wenbo Hu; Ms Ziying An; Mr Jiatong Li; Ms Hannah Baek; Mr Hiroki Ishibashi; Ms Yi Liu; Ms Misaki Ogura; Professor Soohan Kim; Ms Minaho Todaka; Mr Hojung Joo; Ms Rokhui Son; Professor Gowoon Jung; Professor Weidong Wang; Mr Inseong Jung; Professor Jae-Mahn Shim; Dr Nanxun Li; Ms Youme Kwon; Ms Yilin Xie; Professor Sangsoo Lee; Professor Duoduo Xu",
+      "description": "Professor Tarani Chandola (Head,, Department of Sociology, Professor of Medical Sociology, Co-Director of the HKU Stone Centre on, Socio-Economic Inequality in Asia, The University of Hong Kong); Professor Eric Fong (Chair Professor,, Department of Sociology, Associate Dean (Postgraduate Education), Faculty of Social Sciences, Director, Research Hub of Population Studies, The University of Hong Kong); Ms Yuyao Liu (PhD Candidate, Department of Sociology, The University of Hong Kong); Ms Gayoung Lee (Master’s Student, Department of Sociology, Korea University); Professor Kenji Ishida (Associate Professor, Institute of Social Science, The University of Tokyo); Professor Guy Abel (Professor, HKU-100 Scholar, Department of Sociology, The University of Hong Kong); Professor Kikuko Nagayoshi (Professor, Institute of Social Science, The University of Tokyo); Professor Satoshi Araki (Assistant Professor, Department of Sociology, The University of Hong Kong); Professor Hirofumi Taki (Associate Professor, Graduate School of Education, The University of Tokyo); Dr Junhun Han (Postdoctoral Researcher, Department of Sociology, Korea University); Dr Yuriko Morikawa (Project Research Associate, Institute of Social Science, The University of Tokyo); Professor Youbin Kang (Assistant Professor, Department of Sociology, The University of Hong Kong); Mr Junsoo Jeong (PhD Candidate, Department of Sociology, Korea University); Professor Benjamin Rohr (Assistant Professor, Department of Sociology, The University of Hong Kong); Mr Yunseok Jeong (Master’s Student, Department of Sociology, Korea University); Professor Lai Wei (Assistant Professor, Department of Sociology, The University of Hong Kong); Profeesor Sho Fujihara (Professor, Institute of Social Science, The University of Tokyo); Mr Wenbo Hu (PhD Student, Department of Sociology, The University of Hong Kong); Ms Ziying An (PhD Student, Graduate School of Education, The University of Tokyo); Mr Jiatong Li (PhD Student, Department of Sociology, The University of Hong Kong); Ms Hannah Baek (Master’s Student, Department of Sociology, Korea University); Mr Hiroki Ishibashi (PhD Student, Graduate School of Education, The University of Tokyo); Ms Yi Liu (PhD Student, Graduate School of Education, The University of Tokyo); Ms Misaki Ogura (Master’s Student, Graduate School of Education, The University of Tokyo); Professor Soohan Kim (Professor, Department of Sociology, Korea University); Ms Minaho Todaka (Project Research Associate, Institute of Social Science, The University of Tokyo); Mr Hojung Joo (Master’s Student, Department of Sociology, Korea University); Ms Rokhui Son (PhD Student, Department of Sociology, The University of Hong Kong); Professor Gowoon Jung (Associate Professor, Department of Sociology, Korea University); Professor Weidong Wang (Professor of Practice, Co-Director, Social Sciences Research Centre, Faculty of Social Sciences, The University of Hong Kong); Mr Inseong Jung (Master’s Student, Department of Sociology, Korea University); Professor Jae-Mahn Shim (Professor, Department of Sociology, Korea University); Dr Nanxun Li (Research Assistant Professor, Research Hub of Population Studies, Faculty of Social Sciences, The University of Hong Kong); Ms Youme Kwon (Master’s Student, Department of Sociology, Korea University); Ms Yilin Xie (PhD Student, Graduate School of Education, The University of Tokyo); Professor Sangsoo Lee (Assistant Professor, Department of Sociology, Korea University); Professor Duoduo Xu (Associate Professor, Department of Sociology, Co-Director, Social Sciences Research Centre, The University of Hong Kong)",
+      "disciplines": [
+        "Sociology",
+        "Political Science & Public Admin",
+        "Economics"
+      ],
+      "link": "https://web.socsc.hku.hk/event/rhps-tuc26/"
+    },
+    {
+      "title": "Brown Bag Seminar Series: Messy Jobs and the Great Compression: Rethinking the Organization of Work",
+      "institution": "HKU",
+      "department": "Faculty of Social Sciences",
+      "date": "November 25, 2026, 12:00 nn - 13:30 pm",
+      "speaker": "Prof. Jin Li",
+      "description": "Prof. Jin Li (Zhang Yonghong Professor in Economics and Strategy, Director, Centre for AI, Management and Organization, The University of Hong Kong)",
+      "disciplines": [
+        "Economics"
+      ],
+      "link": "https://web.socsc.hku.hk/event/brown-bag-seminar-series-messy-jobs-and-the-great-compression-rethinking-the-organization-of-work/"
+    },
     {
       "title": "The Dialogue Series: Lunch and Learn – Social Impact Careers",
       "institution": "HKU",
@@ -125,18 +151,6 @@
         "Geography & Urban Planning"
       ],
       "link": "https://sosc.hkust.edu.hk/events/seminar-office-oversight-career-capped-elites-and-legislative-capacity"
-    },
-    {
-      "title": "Seminar - Origins of Concepts: What Infants and Preschoolers Can Tell Us About Cognition",
-      "institution": "HKUST",
-      "department": "Division of Social Science",
-      "date": "16 November 2026",
-      "speaker": "",
-      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
-      "disciplines": [
-        "Psychology"
-      ],
-      "link": "https://sosc.hkust.edu.hk/events/seminar-origins-concepts-what-infants-and-preschoolers-can-tell-us-about-cognition"
     },
     {
       "title": "Roundtable Dialogue: Belt and Road Leadership: Empowering Youth for Global Connectivity",
