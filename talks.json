@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T06:28:46.080550+00:00",
+  "last_updated": "2026-11-28T06:03:18.060103+00:00",
   "total_talks": 10,
   "talks": [
     {
@@ -53,18 +53,6 @@
       "link": "https://web.socsc.hku.hk/event/foss-alumni-reunion-cum-christmas-celebration-2026/"
     },
     {
-      "title": "HKU Research Hub of Population Studies Seminar Series: Urban Segregation: Going Beyond Residential Neighbourhoods",
-      "institution": "HKU",
-      "department": "Faculty of Social Sciences",
-      "date": "November 24, 2026, 2:30 - 3:45pm",
-      "speaker": "Professor Xiaowen Dong; Professor Xuejie Ding",
-      "description": "Professor Xiaowen Dong (Department of Engineering Science,, University of Oxford); Professor Xuejie Ding (Department of Social Work and Social Administration, The University of Hong Kong)",
-      "disciplines": [
-        "Geography & Urban Planning"
-      ],
-      "link": "https://web.socsc.hku.hk/event/rhps-gbrn/"
-    },
-    {
       "title": "Knowledge Exchange Seminar Series: The AI and Suicide Prevention – Challenges and Opportunities",
       "institution": "HKU",
       "department": "Faculty of Social Sciences",
@@ -88,6 +76,18 @@
         "Psychology"
       ],
       "link": "https://www.soc.cuhk.edu.hk/event/nov-27-sgsd-seminar-embedded-differentiation-generative-ai-exposure-and-occupational-structure-in-china-by-prof-yuxiao-wu-nanjing-university/"
+    },
+    {
+      "title": "Book Talk - Domination and Mobilization: The Rise and Fall of Political Parties in China’s Republican Era",
+      "institution": "HKUST",
+      "department": "Division of Social Science",
+      "date": "7 December 2026",
+      "speaker": "",
+      "description": "Venue: Room 3401 (Lift 2 or Lifts 17-18), 3/F Academic Building",
+      "disciplines": [
+        "Political Science & Public Admin"
+      ],
+      "link": "https://sosc.hkust.edu.hk/events/book-talk-domination-and-mobilization-rise-and-fall-political-parties-chinas-republican-era"
     },
     {
       "title": "Seminar - Two-Person Occupations and Gender Economic Inequality",
